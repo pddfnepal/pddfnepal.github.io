@@ -1,0 +1,2137 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Panchakoshi Disability Development Forum</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Panchakoshi Disability Development Forum (PDDF), Dailekh: an organization led by persons with disabilities, working for equal rights, livelihoods and inclusion in Dailekh, Karnali Province, Nepal.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Lexend:wght@500;600;700&family=Noto+Sans+Devanagari:wght@400;600&display=swap">
+<style>
+/* Layout: NGO homepage. Contact + accessibility top bar, sticky header, full-width photo slider, counters, then content sections, gallery, partner strip, multi-column footer. Nepal flag navy and crimson. */
+:root {
+  /* Blues taken from the logo: ring #0072b2, lettering #005aa0 */
+  --bg: #f3f9fd;
+  --surface: #ffffff;
+  --ink: #0b2236;
+  --muted: #415468;
+  --line: #cfe3f1;
+  --navy: #063a63;
+  --blue: #005a9e;
+  --logo-blue: #0072b2;
+  --blue-soft: #dcedf8;
+  --sky: #eaf5fc;
+  --pink-soft: #fdecef;
+  --yellow: #ffc93c;
+  --yellow-soft: #fff5d8;
+  --bar: linear-gradient(90deg, #0066a6 0%, #0078bb 100%);
+  --band-a: #063a63;
+  --band-b: #0072b2;
+  --band: linear-gradient(90deg, var(--band-a) 0%, var(--band-b) 100%);
+  --bar-fg: #ffffff;
+  --bar-muted: #d6e6ff;
+  --red: #c8102e;
+  --red-text: #b00e29;
+  --on-accent: #ffffff;
+  --hero-bg: #063a63;
+  --hero-fg: #ffffff;
+  --hero-muted: #d3ddf3;
+  --hero-accent: #ff9aa8;
+  --overlay: rgba(0, 70, 135, 0.86);
+  --overlay-mid: rgba(0, 92, 158, 0.52);
+  --overlay-soft: rgba(0, 114, 178, 0.12);
+  --focus: #ffc21a;
+  --focus-halo: #0f1b33;
+  --shadow: 0 10px 30px rgba(15, 27, 51, 0.10);
+  --radius: 14px;
+  --font-display: "Lexend", "Noto Sans Devanagari", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-body: "Atkinson Hyperlegible", "Noto Sans Devanagari", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --step--1: 0.9rem;
+  --step-0: 1.0625rem;
+  --step-1: 1.3rem;
+  --step-2: 1.6rem;
+  --step-3: clamp(1.9rem, 4vw, 2.5rem);
+  --step-4: clamp(2.1rem, 5.5vw, 3.5rem);
+  --wrap: 74rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #07182a; --surface: #0d2238; --ink: #edf6fc; --muted: #a6bfd2; --line: #1d3a55;
+    --navy: #04203a; --blue: #7cc3f0; --logo-blue: #4fb0e8; --blue-soft: #123552; --sky: #0a2236; --pink-soft: #33182a; --yellow-soft: #33290f;
+    --bar: linear-gradient(90deg, #005489 0%, #0066a6 100%); --band-a: #032642; --band-b: #00507f; --band: linear-gradient(90deg, var(--band-a) 0%, var(--band-b) 100%);
+    --red: #ff6b81; --red-text: #ff8b9c; --on-accent: #0b1222;
+    --hero-bg: #04203a; --shadow: 0 10px 30px rgba(0, 0, 0, 0.35); --focus-halo: #0b1222;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #07182a; --surface: #0d2238; --ink: #edf6fc; --muted: #a6bfd2; --line: #1d3a55;
+  --navy: #04203a; --blue: #7cc3f0; --logo-blue: #4fb0e8; --blue-soft: #123552; --sky: #0a2236; --pink-soft: #33182a; --yellow-soft: #33290f;
+  --bar: linear-gradient(90deg, #005489 0%, #0066a6 100%); --band-a: #032642; --band-b: #00507f; --band: linear-gradient(90deg, var(--band-a) 0%, var(--band-b) 100%);
+  --red: #ff6b81; --red-text: #ff8b9c; --on-accent: #0b1222;
+  --hero-bg: #04203a; --shadow: 0 10px 30px rgba(0, 0, 0, 0.35); --focus-halo: #0b1222;
+  color-scheme: dark;
+}
+/* High contrast mode, chosen by the visitor: yellow and white on black */
+:root[data-contrast="high"] {
+  --bg: #000; --surface: #000; --ink: #fff; --muted: #fff; --line: #fff;
+  --navy: #000; --sky: #000; --pink-soft: #000; --yellow-soft: #000; --yellow: #ffe14d;
+  --bar: #000; --band-a: #000; --band-b: #000; --band: #000; --bar-fg: #fff; --bar-muted: #fff;
+  --blue: #ffe14d; --blue-soft: #000; --red: #ffe14d; --red-text: #ffe14d; --on-accent: #000;
+  --hero-bg: #000; --hero-fg: #fff; --hero-muted: #fff; --hero-accent: #ffe14d;
+  --overlay: rgba(0, 0, 0, 0.9); --overlay-mid: rgba(0, 0, 0, 0.85); --overlay-soft: rgba(0, 0, 0, 0.8);
+  --focus: #00e5ff; --focus-halo: #000; --shadow: none;
+  color-scheme: dark;
+}
+html { font-size: 100%; scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+html[data-size="1"] { font-size: 112.5%; }
+html[data-size="2"] { font-size: 131.25%; }
+html[data-motion="off"] { scroll-behavior: auto; }
+html[data-motion="off"] *, html[data-motion="off"] *::before, html[data-motion="off"] *::after { animation: none !important; transition: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: var(--step-0); line-height: 1.7;
+}
+/* Easy reading mode: more space between letters, words and lines */
+html[data-spacing="wide"] body { letter-spacing: 0.05em; word-spacing: 0.16em; line-height: 2; }
+html[data-spacing="wide"] p, html[data-spacing="wide"] li { max-width: 60ch; }
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
+  z-index: 10; background: var(--surface);
+}
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; text-wrap: balance; margin: 0; }
+p { margin: 0; }
+a { color: var(--blue); text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+img { display: block; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; box-shadow: 0 0 0 6px var(--focus-halo); border-radius: 4px; }
+.np { font-family: "Noto Sans Devanagari", var(--font-body); }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.gutter {
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: var(--wrap); margin: 0 auto; }
+
+.skip {
+  position: absolute; left: 1rem; top: -4rem; z-index: 60;
+  background: var(--red); color: var(--on-accent); padding: 0.7rem 1.1rem; font-weight: 700; border-radius: 8px;
+}
+.skip:focus { top: calc(env(safe-area-inset-top, 0px) + 0.5rem); }
+
+/* Accessibility: a round button on the right edge opens a slide-out panel */
+.a11y-fab {
+  position: fixed; z-index: 45; left: calc(0.8rem + env(safe-area-inset-left, 0px)); bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  width: 3.4rem; height: 3.4rem; border-radius: 50%; border: 3px solid var(--surface); background: var(--bar); color: #fff;
+  box-shadow: var(--shadow); cursor: pointer; display: grid; place-items: center; transition: transform 0.25s ease;
+}
+.a11y-fab:hover { transform: scale(1.08); }
+.a11y-fab svg { width: 1.8rem; height: 1.8rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.a11y-fab .fab-tip {
+  position: absolute; left: calc(100% + 0.6rem); top: 50%; transform: translateY(-50%); white-space: nowrap;
+  background: var(--ink); color: var(--bg); font-size: 0.9rem; font-weight: 700; padding: 0.3rem 0.7rem; border-radius: 6px;
+  opacity: 0; pointer-events: none; transition: opacity 0.2s ease;
+}
+.a11y-fab:hover .fab-tip, .a11y-fab:focus-visible .fab-tip { opacity: 1; }
+.a11y-panel {
+  position: fixed; z-index: 50; top: 0; left: 0; bottom: 0; width: min(22rem, 100vw);
+  padding: calc(1.2rem + env(safe-area-inset-top, 0px)) 1.2rem calc(1.2rem + env(safe-area-inset-bottom, 0px)) calc(1.2rem + env(safe-area-inset-left, 0px));
+  background: var(--surface); border-right: 4px solid var(--blue); box-shadow: 18px 0 40px rgba(15, 27, 51, 0.25);
+  overflow-y: auto; display: grid; align-content: start; gap: 1.1rem;
+  transform: translateX(-105%); visibility: hidden; transition: transform 0.35s ease, visibility 0.35s;
+}
+.a11y-panel.open { transform: none; visibility: visible; }
+.a11y-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.a11y-head h2 { font-size: 1.25rem; display: flex; align-items: center; gap: 0.5rem; }
+.a11y-close { font: inherit; font-weight: 700; min-height: 2.75rem; padding: 0 1rem; border-radius: 999px; border: 2px solid var(--line); background: var(--bg); color: var(--ink); cursor: pointer; }
+.a11y-close:hover { border-color: var(--red); color: var(--red-text); }
+.a11y-section { display: grid; gap: 0.5rem; }
+.a11y-section > p { font-size: var(--step--1); font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+.size-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; }
+.a11y-tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem; }
+.a11y-btn {
+  font: inherit; font-size: 0.95rem; font-weight: 700; color: var(--ink); background: var(--bg); cursor: pointer;
+  border: 2px solid var(--line); border-radius: 12px; min-height: 3rem; padding: 0.6rem; position: relative;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.35rem; text-align: center; line-height: 1.25;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.a11y-tiles .a11y-btn { min-height: 5.6rem; }
+.a11y-btn svg { width: 1.7rem; height: 1.7rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.a11y-btn:hover { border-color: var(--blue); }
+.a11y-btn[aria-pressed="true"] { background: var(--blue); color: var(--on-accent); border-color: var(--blue); }
+.a11y-btn .tick { position: absolute; top: 0.3rem; right: 0.45rem; display: none; font-size: 0.85rem; }
+.a11y-btn[aria-pressed="true"] .tick { display: inline; }
+.a11y-reset { font: inherit; font-weight: 700; min-height: 2.9rem; border-radius: 999px; border: 2px solid var(--red); background: transparent; color: var(--red-text); cursor: pointer; }
+.a11y-reset:hover { background: var(--red); color: var(--on-accent); }
+.a11y-note { font-size: 0.9rem; color: var(--muted); }
+
+/* Blue circle that follows the mouse pointer (mouse users only; the normal arrow stays visible) */
+.cursor-ring { position: fixed; left: 0; top: 0; z-index: 9999; pointer-events: none; opacity: 0; transition: opacity 0.25s ease; will-change: transform; }
+.cursor-ring.on { opacity: 1; }
+.cursor-ring span {
+  display: block; width: 1.8rem; height: 1.8rem; margin: -0.9rem 0 0 -0.9rem; border-radius: 50%;
+  background: rgba(0, 114, 178, 0.16); border: 2px solid rgba(0, 114, 178, 0.65);
+  transition: transform 0.25s ease, background 0.25s ease, border-color 0.25s ease;
+}
+.cursor-ring.hover span { transform: scale(1.35); background: rgba(0, 114, 178, 0.24); border-color: rgba(0, 114, 178, 0.9); }
+.cursor-ring.press span { transform: scale(0.8); }
+[data-contrast="high"] .cursor-ring span { background: rgba(255, 225, 77, 0.2); border-color: #ffe14d; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .cursor-ring span { background: rgba(124, 195, 240, 0.18); border-color: rgba(124, 195, 240, 0.75); } }
+:root[data-theme="dark"] .cursor-ring span { background: rgba(124, 195, 240, 0.18); border-color: rgba(124, 195, 240, 0.75); }
+/* Big cursor option */
+html[data-cursor="big"], html[data-cursor="big"] * {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cpath d='M6 3 L6 40 L15 31 L21 45 L28 42 L22 28 L35 28 Z' fill='%23000' stroke='%23fff' stroke-width='3' stroke-linejoin='round'/%3E%3C/svg%3E") 6 3, auto !important;
+}
+
+/* Header: top row with logo and contact, then a sticky red menu bar with drop-down menus */
+.site-header { background: var(--surface); border-top: 5px solid var(--logo-blue); }
+.header-row { display: flex; align-items: center; gap: 1rem 1.5rem; padding-block: 0.9rem; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 0.9rem; text-decoration: none; color: var(--ink); margin-right: auto; min-width: 0; }
+.brand img { flex: none; width: 4.6rem; height: 4.6rem; border-radius: 50%; background: #fff; }
+.brand-text { display: grid; gap: 0.15rem; line-height: 1.25; min-width: 0; }
+.brand-tagline { font-size: 0.95rem; color: var(--muted); font-style: italic; }
+.brand-text strong { font-family: var(--font-display); font-weight: 700; font-size: clamp(1.15rem, 2.6vw, 1.6rem); color: var(--blue); }
+.brand-text .np { font-size: var(--step--1); color: var(--red-text); font-weight: 600; }
+.header-contact { display: grid; gap: 0.15rem; text-align: right; font-size: 0.95rem; }
+.header-contact p { display: flex; align-items: center; justify-content: flex-end; gap: 0.45rem; }
+.header-contact svg { width: 1rem; height: 1rem; fill: none; stroke: var(--red); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+.header-contact span { color: var(--muted); }
+.header-contact a { font-weight: 700; font-variant-numeric: tabular-nums; text-decoration: none; }
+.header-contact a:hover { text-decoration: underline; }
+@media (max-width: 52rem) { .header-contact { display: none; } .brand img { width: 3.6rem; height: 3.6rem; } }
+
+.navbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30; background: transparent; padding-block: 0.4rem; transition: box-shadow 0.3s ease, background 0.3s ease; }
+.site-header + .navbar { margin-bottom: -2.2rem; }
+.site-header { position: relative; z-index: 31; }
+.navbar.scrolled { box-shadow: var(--shadow); background: var(--surface); }
+.navbar-inner { display: flex; align-items: stretch; background: var(--bar); border-radius: 999px 14px 14px 999px; position: relative; box-shadow: inset 0 -4px 0 var(--red), 0 8px 20px rgba(0, 72, 120, 0.2); }
+[data-contrast="high"] .navbar-inner { border: 2px solid #fff; }
+.nav { flex: 1; min-width: 0; }
+.nav-list { list-style: none; margin: 0; padding: 0 0.4rem 0 1rem; display: flex; flex-wrap: wrap; justify-content: space-between; }
+.nav-list > li { position: relative; }
+.nav-top {
+  font: inherit; font-weight: 700; font-size: 1.02rem; color: var(--bar-fg); background: transparent; border: 0; cursor: pointer;
+  text-decoration: none; display: inline-flex; align-items: center; gap: 0.35rem; min-height: 3.4rem; padding: 0 0.8rem; position: relative; white-space: nowrap;
+}
+.nav-top::after {
+  content: ""; position: absolute; left: 0.8rem; right: 0.8rem; bottom: 0.65rem; height: 2px; border-radius: 2px;
+  background: var(--yellow); transform: scaleX(0); transform-origin: left; transition: transform 0.25s ease;
+}
+.nav-top:hover::after, .nav-top.active::after, .has-sub.open > .nav-top::after { transform: scaleX(1); }
+.chev { width: 0.9rem; height: 0.9rem; fill: none; stroke: currentColor; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; transition: transform 0.25s ease; }
+.has-sub.open > .nav-top .chev { transform: rotate(180deg); }
+.nav-cta {
+  margin-left: auto; display: inline-flex; align-items: center; gap: 0.45rem; padding: 0 1.5rem; min-height: 3.4rem; font-weight: 700; white-space: nowrap;
+  color: #fff; background: #c8102e; text-decoration: none; border-radius: 0 14px 14px 0;
+}
+.nav-cta:hover { filter: brightness(1.05); text-decoration: underline; }
+[data-contrast="high"] .nav-cta { background: #ffe14d; color: #000; }
+.nav-cta { box-shadow: inset 0 -4px 0 rgba(0,0,0,0.18); }
+
+/* Drop-down boxes */
+.submenu {
+  list-style: none; margin: 0; padding: 0.6rem; position: absolute; left: 0; top: calc(100% + 0.3rem); min-width: 16rem; z-index: 40;
+  background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--logo-blue); border-radius: 12px; box-shadow: 0 18px 40px rgba(15, 27, 51, 0.18);
+  opacity: 0; visibility: hidden; transform: translateY(10px); transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+}
+.submenu::before { content: ""; position: absolute; left: 0; right: 0; top: -0.8rem; height: 0.8rem; }
+.has-sub.open > .submenu { opacity: 1; visibility: visible; transform: none; }
+.submenu li { position: relative; }
+.submenu a, .sub-toggle {
+  font: inherit; font-size: 0.98rem; font-weight: 600; color: var(--ink); background: transparent; border: 0; cursor: pointer; text-align: left;
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem; width: 100%; min-height: 2.9rem; padding: 0.4rem 0.9rem;
+  border-radius: 8px; text-decoration: none; transition: background 0.2s ease, color 0.2s ease, padding 0.2s ease;
+}
+.submenu a:hover, .sub-toggle:hover, .has-sub.open > .sub-toggle { background: var(--blue-soft); color: var(--blue); padding-left: 1.15rem; }
+.dotmark { width: 0.45rem; height: 0.45rem; border-radius: 50%; background: var(--red); flex: none; opacity: 0; transition: opacity 0.2s ease; }
+.submenu a:hover .dotmark, .sub-toggle:hover .dotmark, .has-sub.open > .sub-toggle .dotmark { opacity: 1; }
+.sub-toggle .chev { transform: rotate(-90deg); }
+.submenu .submenu { left: calc(100% + 0.6rem); top: -0.7rem; border-top-color: var(--red); }
+.submenu .submenu::before { left: -0.8rem; top: 0; width: 0.8rem; height: 100%; right: auto; }
+.has-sub.open > .sub-toggle .chev { transform: rotate(-90deg); }
+
+/* Medium screens: same single row, a little tighter */
+@media (max-width: 70rem) {
+  .nav-list { padding-left: 0.6rem; }
+  .nav-top { font-size: 0.95rem; padding: 0 0.6rem; }
+  .nav-top::after { left: 0.6rem; right: 0.6rem; }
+  .nav-cta { padding: 0 1.1rem; }
+}
+/* Small screens and phones: menu items stay visible, wrapped and centred; drop-downs open full width below */
+@media (max-width: 54rem) {
+  .navbar-inner { border-radius: 14px; flex-wrap: wrap; }
+  .nav { flex-basis: 100%; }
+  .nav-list { justify-content: center; padding: 0.35rem; gap: 0.1rem 0.2rem; }
+  .nav-list > li { position: static; }
+  .nav-top { min-height: 2.75rem; padding: 0 0.7rem; font-size: 0.95rem; }
+  .nav-top::after { bottom: 0.4rem; }
+  .submenu { left: 0.5rem; right: 0.5rem; top: calc(100% + 0.3rem); min-width: 0; }
+  .submenu .submenu { position: static; opacity: 1; visibility: visible; transform: none; display: none; box-shadow: none; border: 0; border-left: 3px solid var(--red); border-radius: 0; margin: 0.2rem 0 0.4rem 0.9rem; padding: 0.2rem; }
+  .submenu .has-sub.open > .submenu { display: block; }
+  .sub-toggle .chev { transform: none; }
+  .has-sub.open > .sub-toggle .chev { transform: rotate(180deg); }
+  .nav-cta { flex-basis: 100%; justify-content: center; min-height: 2.9rem; border-radius: 0 0 14px 14px; }
+}
+
+/* Hero slider */
+.slider { position: relative; background: var(--hero-bg); color: var(--hero-fg); overflow: hidden; }
+.slides { position: relative; min-height: clamp(35rem, 76vh, 41rem); }
+.slide { position: absolute; inset: 0; opacity: 0; visibility: hidden; transition: opacity 1.4s ease, visibility 1.4s; }
+.slide.current { opacity: 1; visibility: visible; z-index: 1; }
+/* Each slide: text on the left, the photo shown whole in a frame on the right; the slider background is the same blue as the band below */
+.slider { background: var(--band); }
+.slider::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 85% 20%, rgba(255,255,255,0.08), transparent 45%), radial-gradient(circle at 10% 90%, rgba(200,16,46,0.12), transparent 40%); pointer-events: none; }
+.slide-content { position: absolute; inset: 0; z-index: 2; display: flex; padding-block: 3.8rem 1.6rem; }
+/* One rounded frame: photo behind, light blue shade over the text side, words on top */
+.slide-grid { position: relative; width: 100%; height: 100%; display: flex; align-items: center; border-radius: 24px; overflow: hidden;
+  box-shadow: 0 24px 50px rgba(0, 25, 60, 0.35); outline: 1px solid rgba(255, 255, 255, 0.22); outline-offset: -1px; background: var(--navy); }
+.slide-grid::before { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+  background: linear-gradient(90deg, rgba(0, 66, 130, 0.9) 0%, rgba(0, 84, 155, 0.78) 34%, rgba(0, 114, 178, 0.32) 62%, rgba(0, 114, 178, 0.06) 100%); }
+.slide-grid .slide-text { position: relative; z-index: 2; padding: 2.4rem 3rem 3rem; max-width: 40rem; gap: 0.9rem; }
+.slider .slide-title { font-size: clamp(1.9rem, 3.5vw, 2.9rem); }
+.slider .slide-lede { font-size: 1.12rem; }
+.slide-photo { position: absolute; inset: 0; z-index: 0; margin: 0; }
+.slide-img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 40%; transform: scale(1.02); }
+
+.slide.current .slide-img { animation: kenburns 12s ease-out forwards; }
+@keyframes kenburns { from { transform: scale(1.02); } to { transform: scale(1.07); } }
+.slide-text { max-width: 40rem; display: grid; gap: 1.1rem; }
+.slide.current .slide-text { animation: textIn 1.2s ease 0.3s both; }
+@keyframes textIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.eyebrow { font-size: var(--step--1); text-transform: uppercase; letter-spacing: 0.12em; font-weight: 700; color: var(--red-text); }
+.slider .eyebrow { color: var(--hero-accent); }
+.slide-title { font-size: var(--step-4); font-weight: 700; color: var(--hero-fg); }
+.slide-lede { font-size: var(--step-1); line-height: 1.55; color: var(--hero-muted); }
+.slide-caption { position: absolute; z-index: 2; right: 1.4rem; bottom: 2.6rem; max-width: 20rem; text-align: right; font-size: 0.85rem; color: #fff; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7); }
+.hero-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; margin-top: 0.6rem; }
+.btn {
+  display: inline-flex; align-items: center; gap: 0.5rem; min-height: 3rem; font-weight: 700; text-decoration: none;
+  padding: 0.7rem 1.5rem; border-radius: 999px; border: 2px solid var(--red); transition: transform 0.2s ease, filter 0.2s ease;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn-primary { background: var(--red); color: var(--on-accent); }
+.btn-primary:hover { filter: brightness(1.08); }
+.btn-ghost { color: var(--hero-fg); border-color: var(--hero-fg); }
+.btn-ghost:hover { background: rgba(255,255,255,0.12); }
+.slider-controls { position: absolute; z-index: 4; left: 0; right: 0; bottom: 2.3rem; }
+.slider-controls .wrap { display: flex; justify-content: flex-end; padding-right: 1rem; }
+.slider-pill { display: inline-flex; align-items: center; gap: 0.15rem; }
+.ctrl {
+  width: 1.9rem; height: 1.9rem; border-radius: 50%; cursor: pointer; padding: 0; border: 0;
+  background: transparent; color: rgba(255, 255, 255, 0.85); display: grid; place-items: center; transition: background 0.2s ease, opacity 0.3s ease;
+}
+.ctrl:hover { background: rgba(255, 255, 255, 0.18); color: #fff; }
+.ctrl svg { width: 0.8rem; height: 0.8rem; fill: none; stroke: currentColor; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+#prev-slide { order: 1; } .dots { order: 2; } #next-slide { order: 3; } #play-slide { order: 4; margin-left: 0.2rem; }
+#prev-slide, #next-slide { opacity: 0; }
+.slider:hover #prev-slide, .slider:hover #next-slide, #prev-slide:focus-visible, #next-slide:focus-visible { opacity: 1; }
+@media (hover: none) { #prev-slide, #next-slide { display: none; } }
+.dots { display: flex; align-items: center; gap: 0.35rem; }
+.dot { position: relative; width: 2rem; height: 1.6rem; border: 0; background: transparent; cursor: pointer; padding: 0; }
+.dot::before, .dot::after { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 3px; margin-top: -1.5px; border-radius: 3px; }
+.dot::before { background: rgba(255, 255, 255, 0.38); }
+.dot::after { background: #fff; transform: scaleX(0); transform-origin: left; }
+.dot:hover::before { background: rgba(255, 255, 255, 0.7); }
+.dot[aria-current="true"]::after { transform: scaleX(1); }
+.slider.autoplay .dot[aria-current="true"]::after { animation: progress 7s linear forwards; }
+@keyframes progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@media (max-width: 52rem) {
+  .slide-grid { flex-direction: column; align-items: stretch; background: linear-gradient(180deg, #00549b 0%, #004282 100%); }
+  .slide-grid::before { display: none; }
+  .slide-photo { position: relative; inset: auto; height: 14.5rem; flex: none; order: -1; overflow: hidden; }
+  .slide-photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0, 114, 178, 0.1) 0%, rgba(0, 114, 178, 0.1) 60%, #00549b 100%); }
+  .slide-img { height: 100%; object-position: center 35%; }
+  .slide-caption { top: 0.7rem; left: 0.9rem; right: auto; bottom: auto; text-align: left; max-width: 80%; font-size: 0.8rem; }
+  .slide-grid .slide-text { padding: 0.6rem 1.3rem 3.8rem; }
+  .slider .hero-actions { gap: 0.6rem; flex-wrap: nowrap; }
+  .slider .btn { padding: 0.6rem 1.1rem; min-height: 2.9rem; font-size: 0.98rem; }
+  .slide-content { padding-block: 3.4rem 1.3rem; }
+  .slides { min-height: 47rem; }
+  .slider-controls { bottom: 2.1rem; }
+}
+@media (max-width: 40rem) { .slides { min-height: 47rem; } .slider .slide-title { font-size: 1.7rem; } .slider .slide-lede { font-size: 1.02rem; } }
+
+/* Counters */
+.stats { background: var(--band); }
+.stats-row { position: relative; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); padding-block: 3.2rem 2.2rem; gap: 1.5rem; }
+.stat { display: grid; gap: 0.2rem; padding-left: 1rem; border-left: 4px solid var(--yellow); }
+.stat:nth-child(even) { border-left-color: var(--hero-accent); }
+.stat b { font-family: var(--font-display); font-weight: 700; font-size: var(--step-3); color: #fff; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.stat span { color: var(--bar-muted); font-size: 0.95rem; line-height: 1.4; }
+@media (max-width: 52rem) { .stats-row { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* Sections */
+.section { padding-block: 5rem; }
+.section.alt { background: var(--surface); }
+.section.sky { background: var(--sky); }
+.section-intro { display: grid; gap: 0.6rem; max-width: 44rem; margin-bottom: 2.5rem; }
+.section-intro.center { text-align: center; margin-inline: auto; justify-items: center; }
+.section-intro h2 { font-size: var(--step-3); }
+.section-intro h2::after { content: ""; display: block; width: 5rem; height: 4px; border-radius: 4px; background: linear-gradient(90deg, var(--red) 0 45%, transparent 45% 55%, var(--blue) 55% 100%); margin-top: 0.9rem; }
+.section-intro.center h2::after { margin-inline: auto; }
+.section-intro p { color: var(--muted); }
+@media (max-width: 52rem) { .section { padding-block: 3.5rem; } }
+
+/* Scroll reveal: only applied by script to content below the first screen */
+.reveal.pre { opacity: 0; transform: translateY(28px); }
+.reveal { transition: opacity 0.7s ease, transform 0.7s ease; }
+
+.about-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 3rem; align-items: center; }
+.about-photo { position: relative; }
+.about-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); box-shadow: var(--shadow); }
+.about-badge {
+  position: absolute; right: -0.5rem; bottom: -1.2rem; background: var(--red); color: var(--on-accent);
+  padding: 1rem 1.3rem; border-radius: var(--radius); box-shadow: var(--shadow); display: grid; line-height: 1.2;
+}
+.about-badge b { font-family: var(--font-display); font-size: 1.8rem; }
+.about-text { display: grid; gap: 1.1rem; min-width: 0; }
+.about-text h2 { font-size: var(--step-3); }
+.work-areas { list-style: none; margin: 0.4rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.work-areas li { background: var(--sky); border: 1px solid var(--line); color: var(--ink); border-radius: 999px; padding: 0.35rem 0.9rem; font-size: 0.95rem; }
+@media (max-width: 52rem) { .about-grid { grid-template-columns: minmax(0, 1fr); gap: 2.5rem; } .about-badge { right: 0.8rem; } }
+
+.vm { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem; }
+.vm-item {
+  display: grid; gap: 0.7rem; align-content: start; padding: 1.8rem; border-radius: var(--radius);
+  background: var(--sky); border: 1px solid var(--line); border-top: 5px solid var(--blue); transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.vm-item:nth-child(2) { background: var(--pink-soft); border-top-color: var(--red); }
+.vm-item:nth-child(3) { background: var(--yellow-soft); border-top-color: var(--yellow); }
+.vm-item:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+.vm-icon { width: 3.2rem; height: 3.2rem; border-radius: 50%; display: grid; place-items: center; background: var(--blue); color: var(--on-accent); }
+.vm-item:nth-child(2) .vm-icon { background: var(--red); }
+.vm-item:nth-child(3) .vm-icon { background: var(--yellow); color: #063a63; }
+[data-contrast="high"] .vm-icon { color: #000; }
+.vm-icon svg { width: 1.5rem; height: 1.5rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.vm-item h3 { font-size: var(--step-1); }
+@media (max-width: 52rem) { .vm { grid-template-columns: minmax(0, 1fr); } }
+
+.objectives { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem; counter-reset: obj; }
+.objectives li {
+  counter-increment: obj; display: grid; gap: 0.6rem; align-content: start; padding: 1.6rem; border-radius: var(--radius);
+  background: var(--surface); border: 1px solid var(--line); transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.objectives li:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: var(--blue); }
+.objectives li::before {
+  content: counter(obj); width: 2.6rem; height: 2.6rem; border-radius: 50%;
+  background: var(--blue); color: var(--on-accent); display: grid; place-items: center; font-weight: 700; font-family: var(--font-display);
+}
+.objectives li:nth-child(even)::before { background: var(--red); }
+.objectives h3 { font-size: var(--step-0); font-weight: 700; }
+.objectives p { color: var(--muted); }
+@media (max-width: 62rem) { .objectives { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 40rem) { .objectives { grid-template-columns: minmax(0, 1fr); } }
+
+.values { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.7rem; list-style: none; margin: 2.5rem 0 0; padding: 0; }
+.values li { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 0.55rem 1.1rem; }
+.values strong { color: var(--blue); }
+
+/* Programmes */
+.programmes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; list-style: none; margin: 0; padding: 0; }
+.prog {
+  display: grid; gap: 0.8rem; align-content: start; padding: 1.7rem; border-radius: var(--radius);
+  background: var(--surface); border: 1px solid var(--line); border-top: 5px solid var(--blue);
+  transition: transform 0.25s ease, box-shadow 0.25s ease; min-width: 0;
+}
+.programmes > .prog:nth-child(odd):not(.featured) { border-top-color: var(--red); }
+.prog:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+.prog.featured { grid-column: 1 / -1; border-top-color: var(--red); display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 1.6rem; padding: 0; overflow: hidden; }
+.prog.featured img { width: 100%; height: 100%; min-height: 16rem; object-fit: cover; }
+.prog.featured .prog-body { padding: 1.7rem 1.7rem 1.7rem 0; display: grid; gap: 0.8rem; align-content: start; }
+.prog-when { font-weight: 700; color: var(--red-text); font-variant-numeric: tabular-nums; font-size: 0.95rem; }
+.prog h3 { font-size: var(--step-1); }
+.prog-meta { display: grid; gap: 0.15rem; color: var(--muted); font-size: 0.95rem; }
+.prog-meta b { color: var(--ink); }
+.prog ul { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.3rem; }
+.status { display: inline-block; font-size: var(--step--1); font-weight: 700; padding: 0.1rem 0.7rem; border-radius: 999px; background: var(--pink-soft); color: var(--red-text); border: 1px solid var(--red); margin-left: 0.4rem; vertical-align: middle; font-family: var(--font-body); }
+@media (max-width: 52rem) {
+  .programmes { grid-template-columns: minmax(0, 1fr); }
+  .prog.featured { grid-template-columns: minmax(0, 1fr); }
+  .prog.featured img { min-height: 0; aspect-ratio: 16 / 9; }
+  .prog.featured .prog-body { padding: 0 1.5rem 1.6rem; }
+}
+
+/* WASH feature band */
+.band { background: var(--band); color: var(--hero-fg); }
+.band-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 3rem; align-items: center; }
+.band-photo img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: var(--radius); }
+.band .section-intro h2 { color: var(--hero-fg); }
+.band .section-intro p, .band .band-text p { color: var(--hero-muted); }
+.band .eyebrow { color: var(--hero-accent); }
+.band-text { display: grid; gap: 1rem; min-width: 0; }
+.checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.7rem; }
+.checks li { display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); gap: 0.6rem; color: var(--hero-fg); }
+.checks li::before { content: "✓"; width: 1.6rem; height: 1.6rem; border-radius: 50%; background: var(--red); color: #fff; display: grid; place-items: center; font-weight: 700; font-size: 0.9rem; margin-top: 0.15rem; }
+[data-contrast="high"] .checks li::before { color: #000; }
+@media (max-width: 52rem) { .band-grid { grid-template-columns: minmax(0, 1fr); gap: 2rem; } }
+
+/* Gallery */
+.gallery { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 1rem; }
+.gallery figure { margin: 0; grid-column: span 2; }
+.gallery figure.wide { grid-column: span 3; }
+.g-btn { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in; border-radius: var(--radius); overflow: hidden; position: relative; }
+.g-btn img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; transition: transform 0.5s ease; }
+.gallery figure.wide .g-btn img { aspect-ratio: 16 / 9; }
+.g-btn:hover img, .g-btn:focus-visible img { transform: scale(1.06); }
+.gallery figcaption { margin-top: 0.5rem; font-size: 0.95rem; color: var(--muted); line-height: 1.45; }
+@media (max-width: 52rem) {
+  .gallery { grid-template-columns: minmax(0, 1fr); }
+  .gallery figure, .gallery figure.wide { grid-column: auto; }
+}
+.lightbox { border: 0; padding: 0; background: transparent; max-width: min(64rem, 94vw); width: 100%; color: #fff; }
+.lightbox::backdrop { background: rgba(5, 10, 25, 0.9); }
+.lightbox img { width: 100%; max-height: 78vh; object-fit: contain; border-radius: 8px; }
+.lightbox p { margin-top: 0.7rem; text-align: center; }
+.lb-bar { display: flex; justify-content: center; gap: 0.6rem; margin-top: 0.8rem; }
+.lb-bar button { font: inherit; font-weight: 700; min-height: 2.75rem; padding: 0 1.1rem; border-radius: 999px; border: 2px solid #fff; background: transparent; color: #fff; cursor: pointer; }
+.lb-bar button:hover { background: #fff; color: #0b2559; }
+
+/* Board */
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 36rem; }
+caption { text-align: left; padding: 1rem 1.1rem 0.4rem; color: var(--muted); font-size: 0.95rem; }
+th, td { text-align: left; padding: 0.85rem 1.1rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+thead th { font-size: var(--step--1); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+tbody tr { transition: background 0.2s ease; }
+tbody tr:hover { background: var(--blue-soft); }
+tbody tr:last-child td, tbody tr:last-child th { border-bottom: 0; }
+tbody th { font-weight: 700; }
+td.num { font-variant-numeric: tabular-nums; color: var(--muted); width: 3rem; }
+.role { color: var(--blue); font-weight: 700; }
+.note { color: var(--muted); font-size: 0.95rem; margin-top: 1rem; }
+
+.two-col { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; }
+.panel { display: grid; gap: 0.8rem; align-content: start; min-width: 0; padding: 1.8rem; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
+.panel h3 { font-size: var(--step-1); }
+.policies { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.policies li:nth-child(even) { color: var(--red-text); background: var(--pink-soft); }
+.policies li { padding: 0.45rem 0.9rem; border-radius: 999px; color: var(--blue); background: var(--sky); border: 1px solid var(--line); font-weight: 700; font-size: 0.95rem; }
+@media (max-width: 52rem) { .two-col { grid-template-columns: minmax(0, 1fr); } }
+
+/* Partners marquee */
+.partners { background: var(--surface); border-block: 1px solid var(--line); padding-block: 2.2rem; }
+.partners-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
+.partners-head h2 { font-size: var(--step-1); }
+.pause-btn { font: inherit; font-weight: 700; font-size: 0.92rem; min-height: 2.75rem; padding: 0 1rem; border-radius: 999px; border: 2px solid var(--line); background: var(--bg); color: var(--ink); cursor: pointer; }
+.marquee { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
+.marquee-track { display: flex; width: max-content; gap: 1rem; animation: marquee 40s linear infinite; }
+.marquee:hover .marquee-track, .marquee.paused .marquee-track { animation-play-state: paused; }
+.marquee ul { display: flex; gap: 1rem; list-style: none; margin: 0; padding: 0; }
+.marquee li { white-space: nowrap; padding: 0.8rem 1.4rem; border-radius: var(--radius); border: 1px solid var(--line); background: var(--sky); font-weight: 700; color: var(--blue); }
+.marquee li:nth-child(even) { color: var(--red-text); background: var(--pink-soft); }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .marquee-track { flex-wrap: wrap; width: auto; } .marquee-track > ul[aria-hidden] { display: none; } .marquee ul { flex-wrap: wrap; } .marquee { -webkit-mask-image: none; mask-image: none; } }
+html[data-motion="off"] .marquee-track { flex-wrap: wrap; width: auto; }
+html[data-motion="off"] .marquee-track > ul[aria-hidden] { display: none; }
+html[data-motion="off"] .marquee ul { flex-wrap: wrap; }
+html[data-motion="off"] .marquee { -webkit-mask-image: none; mask-image: none; }
+
+/* Contact */
+.contact-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem; }
+.contact-card { display: grid; gap: 0.5rem; align-content: start; padding: 1.6rem; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); min-width: 0; transition: transform 0.25s ease, box-shadow 0.25s ease; }
+.contact-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.contact-card h3 { font-size: var(--step-1); }
+.contact-card .who { color: var(--red-text); font-weight: 700; }
+.contact-line { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; overflow-wrap: anywhere; }
+.contact-line a { font-weight: 700; font-size: 1.08rem; font-variant-numeric: tabular-nums; }
+.copy-btn { font: inherit; font-size: var(--step--1); font-weight: 700; color: var(--blue); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 0.25rem 0.8rem; min-height: 2.2rem; cursor: pointer; }
+@media (max-width: 52rem) { .contact-grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* Footer */
+.site-footer { background: var(--navy); color: var(--hero-muted); border-top: 6px solid var(--red); }
+.footer-grid { display: grid; grid-template-columns: minmax(0, 1.4fr) repeat(3, minmax(0, 1fr)); gap: 2rem; padding-block: 3.5rem 2.5rem; }
+.footer-grid h2 { font-size: 1.05rem; color: var(--hero-fg); margin-bottom: 0.8rem; }
+.footer-grid h2::after { content: ""; display: block; width: 2.5rem; height: 3px; border-radius: 3px; background: var(--yellow); margin-top: 0.5rem; }
+.footer-grid ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.45rem; }
+.footer-grid a { color: var(--hero-fg); text-decoration: none; }
+.footer-grid a:hover { text-decoration: underline; }
+.footer-brand { display: grid; gap: 0.8rem; }
+.footer-brand img { width: 4.5rem; height: 4.5rem; border-radius: 50%; background: #fff; }
+.footer-brand strong { color: var(--hero-fg); font-family: var(--font-display); font-size: 1.1rem; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); padding-block: 1.2rem; font-size: 0.92rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem 1.5rem; }
+@media (max-width: 52rem) { .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 34rem) { .footer-grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* Activities, policies and reports: filled from the content files that the admin page edits */
+.act-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem; list-style: none; margin: 0; padding: 0; }
+.act-card { display: grid; grid-template-rows: auto 1fr; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; transition: transform 0.25s ease, box-shadow 0.25s ease; min-width: 0; }
+.act-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+.act-card img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+.act-body { display: grid; gap: 0.6rem; align-content: start; padding: 1.3rem 1.4rem 1.5rem; }
+.act-meta { display: flex; flex-wrap: wrap; gap: 0.4rem 0.6rem; align-items: center; font-size: 0.9rem; }
+.act-tag { background: var(--pink-soft); color: var(--red-text); border: 1px solid var(--red); border-radius: 999px; padding: 0.05rem 0.65rem; font-weight: 700; }
+.act-date { color: var(--blue); font-weight: 700; }
+.act-card h3 { font-size: var(--step-1); }
+.act-card p { color: var(--muted); }
+.more-row { display: flex; justify-content: center; margin-top: 1.8rem; }
+@media (max-width: 62rem) { .act-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 40rem) { .act-grid { grid-template-columns: minmax(0, 1fr); } }
+
+.docs-head { display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem 1rem; flex-wrap: wrap; margin-bottom: 1.1rem; }
+.docs-head h3 { font-size: var(--step-2); }
+.docs-head p { color: var(--muted); }
+.docs-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem; list-style: none; margin: 0 0 3rem; padding: 0; }
+.doc-card { display: grid; gap: 0.7rem; align-content: start; padding: 1.4rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); border-left: 5px solid var(--logo-blue); min-width: 0; transition: transform 0.25s ease, box-shadow 0.25s ease; }
+.doc-card:nth-child(even) { border-left-color: var(--red); }
+.doc-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.doc-top { display: flex; gap: 0.8rem; align-items: center; }
+.doc-icon { flex: none; width: 2.8rem; height: 2.8rem; border-radius: 10px; background: var(--sky); color: var(--blue); display: grid; place-items: center; }
+.doc-card:nth-child(even) .doc-icon { background: var(--pink-soft); color: var(--red-text); }
+.doc-icon svg { width: 1.4rem; height: 1.4rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.doc-card h4 { font-family: var(--font-display); font-size: 1.08rem; font-weight: 600; margin: 0; line-height: 1.3; }
+.doc-card p { color: var(--muted); font-size: 0.97rem; }
+.doc-updated { font-size: 0.9rem; color: var(--blue); font-weight: 700; }
+.doc-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.2rem; }
+.doc-btn { display: inline-flex; align-items: center; gap: 0.4rem; min-height: 2.75rem; padding: 0 1.1rem; border-radius: 999px; font-weight: 700; text-decoration: none; border: 2px solid var(--blue); }
+.doc-btn.view { background: var(--blue); color: var(--on-accent); }
+.doc-btn.save { color: var(--blue); }
+.doc-btn:hover { filter: brightness(1.1); text-decoration: underline; }
+.doc-btn svg { width: 1.05rem; height: 1.05rem; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.doc-soon { display: inline-flex; align-items: center; gap: 0.4rem; min-height: 2.4rem; padding: 0 0.9rem; border-radius: 999px; background: var(--yellow-soft); color: var(--ink); font-size: 0.92rem; font-weight: 700; border: 1px dashed var(--line); }
+@media (max-width: 62rem) { .docs-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 40rem) { .docs-grid { grid-template-columns: minmax(0, 1fr); } }
+
+.report-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.8rem; }
+.report-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.6rem 1.2rem; align-items: center; padding: 1.1rem 1.3rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.report-row h4 { font-family: var(--font-display); font-weight: 600; font-size: 1.08rem; margin: 0.2rem 0; }
+.report-row p { color: var(--muted); font-size: 0.97rem; }
+.report-type { display: inline-block; font-size: 0.85rem; font-weight: 700; color: var(--blue); background: var(--sky); border-radius: 999px; padding: 0.05rem 0.6rem; margin-right: 0.4rem; }
+.report-period { font-size: 0.9rem; color: var(--muted); font-weight: 700; }
+@media (max-width: 40rem) { .report-row { grid-template-columns: minmax(0, 1fr); } }
+.empty-state { display: grid; justify-items: center; gap: 0.5rem; text-align: center; padding: 2.2rem 1.2rem; border: 2px dashed var(--line); border-radius: var(--radius); background: var(--surface); color: var(--muted); }
+.empty-state svg { width: 2.4rem; height: 2.4rem; fill: none; stroke: var(--logo-blue); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.empty-state strong { color: var(--ink); font-size: 1.05rem; }
+[data-contrast="high"] .doc-card, [data-contrast="high"] .act-card, [data-contrast="high"] .report-row { border: 2px solid var(--ink); }
+
+/* Quote band: the heart of the organization, set large over a photo */
+.quote-band { position: relative; color: #fff; overflow: hidden; background: var(--navy); }
+.quote-band img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.quote-band::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, var(--overlay) 0%, var(--overlay-mid) 70%, var(--overlay-soft) 100%); }
+.quote-inner { position: relative; z-index: 1; padding-block: 5rem; max-width: 48rem; display: grid; gap: 1.2rem; }
+.quote-heart { display: block; width: 4.2rem; height: 4.2rem; transform-origin: center; }
+.quote-heart path { fill: rgba(255, 154, 168, 0.28); stroke: var(--hero-accent); stroke-width: 1.3; stroke-linejoin: round; stroke-linecap: round; stroke-dasharray: 100; stroke-dashoffset: 0; }
+.quote-band.ready .quote-heart path { fill: rgba(255, 154, 168, 0); stroke-dashoffset: 100; }
+.quote-band.play .quote-heart path { animation: drawHeart 2.2s ease-in-out forwards, fillHeart 1.2s ease 2s forwards; }
+.quote-band.play .quote-heart { animation: softPulse 4.5s ease-in-out 3.4s infinite; }
+@keyframes drawHeart { to { stroke-dashoffset: 0; } }
+@keyframes fillHeart { to { fill: rgba(255, 154, 168, 0.28); } }
+@keyframes softPulse { 0%, 100% { transform: scale(1); } 12% { transform: scale(1.07); } 24% { transform: scale(1); } 36% { transform: scale(1.04); } 48% { transform: scale(1); } }
+[data-contrast="high"] .quote-heart path { fill: none; }
+html[data-motion="off"] .quote-heart path { stroke-dashoffset: 0 !important; fill: rgba(255, 154, 168, 0.28) !important; }
+.quote-band blockquote { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(1.7rem, 4vw, 2.6rem); line-height: 1.3; text-wrap: balance; }
+.quote-band figcaption { font-size: 1.1rem; font-weight: 700; color: #ffe08a; }
+.quote-band p.quote-note { color: var(--hero-muted); max-width: 38rem; }
+[data-contrast="high"] .quote-band img { display: none; }
+
+/* Map and working areas */
+.find-us { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 1.4rem; margin-top: 2.2rem; }
+.map-card { position: relative; min-height: 22rem; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); background: var(--sky); box-shadow: var(--shadow); }
+.map-card iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.map-placeholder { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 0.7rem; text-align: center; padding: 1.5rem;
+  background:
+    radial-gradient(circle at 30% 35%, rgba(0,114,178,0.12) 0 18%, transparent 19%),
+    radial-gradient(circle at 70% 65%, rgba(200,16,46,0.08) 0 22%, transparent 23%),
+    repeating-linear-gradient(45deg, transparent 0 22px, rgba(0,114,178,0.06) 22px 23px), var(--sky); }
+.map-pin { width: 3.4rem; height: 3.4rem; color: var(--red); animation: bob 2.4s ease-in-out infinite; }
+.map-pin svg { width: 100%; height: 100%; fill: currentColor; }
+@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+.map-placeholder strong { font-family: var(--font-display); font-size: 1.4rem; color: var(--ink); }
+.map-placeholder p { color: var(--muted); }
+.map-link { display: inline-flex; align-items: center; gap: 0.4rem; min-height: 2.75rem; padding: 0 1.2rem; border-radius: 999px; background: var(--blue); color: var(--on-accent); font-weight: 700; text-decoration: none; }
+.map-link:hover { text-decoration: underline; }
+.map-under { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; flex-wrap: wrap; margin-top: 0.7rem; color: var(--muted); font-size: 0.95rem; }
+.areas { display: grid; gap: 0.9rem; align-content: start; padding: 1.6rem; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
+.areas h3 { font-size: var(--step-1); }
+.area-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.area-list li { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.85rem; border-radius: 999px; background: var(--sky); border: 1px solid var(--line); font-size: 0.95rem; }
+.area-list li.now { background: var(--pink-soft); border-color: var(--red); }
+.area-list svg { width: 0.95rem; height: 0.95rem; fill: var(--logo-blue); flex: none; }
+.area-list li.now svg { fill: var(--red); }
+.areas .legend { font-size: 0.9rem; color: var(--muted); }
+@media (max-width: 52rem) { .find-us { grid-template-columns: minmax(0, 1fr); } }
+
+/* Social media links, top right of the header */
+.social { display: flex; align-items: center; justify-content: flex-end; gap: 0.45rem; flex-wrap: wrap; }
+.social {
+  position: fixed; z-index: 44; right: 0; top: 50%; transform: translateY(-50%);
+  display: flex; flex-direction: column; gap: 0.3rem; padding: 0.4rem 0.35rem calc(0.4rem) 0.4rem;
+  padding-right: calc(0.35rem + env(safe-area-inset-right, 0px));
+  background: var(--surface); border: 1px solid var(--line); border-right: 0; border-radius: 14px 0 0 14px; box-shadow: var(--shadow);
+}
+.social a {
+  position: relative; width: 2.5rem; height: 2.5rem; border-radius: 50%; display: grid; place-items: center; text-decoration: none;
+  color: #fff; background: var(--brand, var(--logo-blue));
+  transition: transform 0.25s cubic-bezier(.3,1.6,.5,1), box-shadow 0.25s ease;
+}
+.social a:hover, .social a:focus-visible { transform: translateX(-4px) scale(1.1); box-shadow: 0 6px 14px rgba(0,0,0,0.18); }
+.social svg { width: 1.15rem; height: 1.15rem; fill: currentColor; }
+.social a .tip {
+  position: absolute; right: calc(100% + 0.6rem); top: 50%; transform: translateY(-50%); white-space: nowrap; pointer-events: none;
+  background: var(--ink); color: var(--bg); font-size: 0.85rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px; opacity: 0; transition: opacity 0.2s ease;
+}
+.social a:hover .tip, .social a:focus-visible .tip { opacity: 1; }
+.social a { animation: popIn 0.5s cubic-bezier(.3,1.6,.5,1) backwards; animation-delay: calc(0.6s + var(--i, 0) * 0.12s); }
+@keyframes popIn { from { transform: scale(0); } to { transform: scale(1); } }
+@media (max-width: 40rem) { #social { display: none; } .a11y-fab { width: 2.9rem; height: 2.9rem; } .a11y-fab svg { width: 1.5rem; height: 1.5rem; } }
+.footer-social { position: static; transform: none; flex-direction: row; background: transparent; border: 0; box-shadow: none; padding: 0; margin-top: 0.4rem; }
+.footer-social a .tip { display: none; }
+[data-contrast="high"] .social a { background: #000; color: #ffe14d; border: 2px solid #ffe14d; }
+
+/* Gentle motion: drifting light over the slider, breathing icons, quote words, drawn underlines */
+
+.vm-icon { position: relative; }
+.vm-icon::after { content: ""; position: absolute; inset: -6px; border-radius: 50%; border: 2px solid currentColor; opacity: 0; color: inherit; }
+.vm-item:nth-child(1) .vm-icon::after { border-color: var(--blue); }
+.vm-item:nth-child(2) .vm-icon::after { border-color: var(--red); }
+.vm-item:nth-child(3) .vm-icon::after { border-color: var(--yellow); }
+.vm-item .vm-icon::after { animation: breathe 3.2s ease-out infinite; }
+.vm-item:nth-child(2) .vm-icon::after { animation-delay: 1s; }
+.vm-item:nth-child(3) .vm-icon::after { animation-delay: 2s; }
+@keyframes breathe { 0% { transform: scale(0.9); opacity: 0.7; } 100% { transform: scale(1.5); opacity: 0; } }
+
+.section-intro h2::after { transform-origin: left; transition: transform 0.9s cubic-bezier(.2,.7,.2,1) 0.2s; }
+.section-intro.center h2::after { transform-origin: center; }
+.section-intro.pre h2::after { transform: scaleX(0); }
+
+.quote-band blockquote .w { display: inline-block; }
+.quote-band.play blockquote .w { animation: wordIn 0.7s cubic-bezier(.2,.7,.2,1) both; animation-delay: calc(var(--i) * 0.14s); }
+@keyframes wordIn { from { opacity: 0; transform: translateY(0.5em); filter: blur(4px); } to { opacity: 1; transform: none; filter: none; } }
+.quote-band img { transform: scale(1.06); transition: transform 8s ease-out; }
+.quote-band.play img { transform: scale(1); }
+
+
+/* Little moments: chips pop in, a sparkle beside section labels, tiny hearts from buttons */
+.pop-group li { transition: opacity 0.4s ease, transform 0.55s cubic-bezier(.3,1.6,.5,1); transition-delay: calc(var(--i, 0) * 70ms); }
+.pop-group.pre li, .pre .pop-group li { opacity: 0; transform: scale(0.6) translateY(10px); }
+.burst { position: fixed; z-index: 9998; pointer-events: none; font-size: 0.95rem; line-height: 1; animation: burst 0.9s ease-out forwards; }
+@keyframes burst { from { transform: translate(-50%, -50%) scale(0.4); opacity: 1; } to { transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(1.1); opacity: 0; } }
+
+/* Language switch */
+.lang-switch { display: inline-flex; align-items: center; gap: 0.2rem; padding: 0.2rem; border-radius: 999px; background: var(--sky); border: 1px solid var(--line); }
+.lang-switch svg { width: 1.1rem; height: 1.1rem; margin: 0 0.25rem 0 0.4rem; fill: none; stroke: var(--logo-blue); stroke-width: 2; stroke-linecap: round; }
+.lang-btn { font: inherit; font-size: 0.95rem; font-weight: 700; min-height: 2.5rem; padding: 0 0.95rem; border-radius: 999px; border: 0; background: transparent; color: var(--ink); cursor: pointer; transition: background 0.2s ease, color 0.2s ease; }
+.lang-btn[aria-pressed="true"] { background: var(--blue); color: var(--on-accent); }
+.lang-btn:not([aria-pressed="true"]):hover { background: var(--blue-soft); }
+.a11y-panel .lang-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; }
+html[lang="ne"] body, html[lang="ne"] h1, html[lang="ne"] h2, html[lang="ne"] h3, html[lang="ne"] h4, html[lang="ne"] button { font-family: "Noto Sans Devanagari", var(--font-body); }
+html[lang="ne"] .eyebrow { letter-spacing: 0.02em; }
+
+/* Read-aloud player */
+.reader {
+  position: fixed; z-index: 47; left: 50%; bottom: calc(1rem + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+  width: min(34rem, calc(100vw - 2rem)); display: grid; gap: 0.5rem; padding: 0.8rem 1rem; border-radius: 18px;
+  background: var(--surface); color: var(--ink); border: 2px solid var(--logo-blue); box-shadow: 0 16px 40px rgba(0, 40, 80, 0.28);
+}
+.reader-info { display: flex; align-items: center; gap: 0.6rem; min-width: 0; font-size: 0.95rem; }
+.reader-dot { flex: none; width: 0.7rem; height: 0.7rem; border-radius: 50%; background: var(--muted); }
+.reader.playing .reader-dot { background: var(--red); animation: rdPulse 1.2s ease-in-out infinite; }
+@keyframes rdPulse { 50% { transform: scale(1.5); opacity: 0.6; } }
+#reader-status { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; font-weight: 700; }
+.reader-controls { display: flex; align-items: center; justify-content: center; gap: 0.4rem; flex-wrap: wrap; }
+.rd-btn {
+  font: inherit; font-weight: 700; min-width: 2.9rem; height: 2.9rem; padding: 0 0.6rem; border-radius: 999px; cursor: pointer;
+  border: 2px solid var(--line); background: var(--sky); color: var(--blue); display: inline-grid; place-items: center;
+}
+.rd-btn:hover { border-color: var(--logo-blue); }
+.rd-btn.main { width: 3.4rem; height: 3.4rem; background: var(--bar); color: #fff; border: 0; }
+.rd-btn svg { width: 1.25rem; height: 1.25rem; fill: currentColor; }
+.rd-btn.main svg { width: 1.5rem; height: 1.5rem; }
+.reader-hint { font-size: 0.88rem; color: var(--muted); text-align: center; }
+.reader-on .rd-block { cursor: pointer; }
+.reader-on .rd-block:hover { outline: 2px dashed var(--logo-blue); outline-offset: 4px; border-radius: 4px; }
+.rd-current { background: var(--yellow-soft) !important; outline: 3px solid var(--yellow) !important; outline-offset: 4px; border-radius: 4px; color: var(--ink) !important; }
+.slider .rd-current, .band .rd-current, .quote-band .rd-current, .stats .rd-current, .site-footer .rd-current { background: rgba(255, 201, 60, 0.18) !important; color: inherit !important; }
+@media (max-width: 40rem) { .reader { bottom: calc(5rem + env(safe-area-inset-bottom, 0px)); padding: 0.7rem; } }
+[data-contrast="high"] .rd-current { background: #000 !important; outline-color: #00e5ff !important; }
+
+/* Thin wave lines decorating the top of the blue numbers band */
+.stats { position: relative; }
+.band-wave { position: absolute; left: 0; top: -0.2rem; width: 100%; height: 2.2rem; pointer-events: none; }
+.band-wave .wave-line { fill: none; stroke: var(--red); stroke-width: 3; vector-effect: non-scaling-stroke; }
+.band-wave .wave-line2 { fill: none; stroke: rgba(255, 255, 255, 0.3); stroke-width: 1.2; vector-effect: non-scaling-stroke; }
+
+.to-top {
+  position: fixed; z-index: 44; right: calc(1rem + env(safe-area-inset-right, 0px)); bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  width: 3.2rem; height: 3.2rem; border-radius: 50%; border: 0; background: var(--red); color: var(--on-accent); cursor: pointer;
+  box-shadow: var(--shadow); display: grid; place-items: center; transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.to-top svg { width: 1.3rem; height: 1.3rem; fill: none; stroke: currentColor; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.to-top[data-hidden="true"] { opacity: 0; transform: translateY(1rem); pointer-events: none; }
+
+[data-contrast="high"] .btn, [data-contrast="high"] .contact-card, [data-contrast="high"] .vm-item, [data-contrast="high"] .objectives li,
+[data-contrast="high"] .prog, [data-contrast="high"] .panel, [data-contrast="high"] .values li, [data-contrast="high"] .work-areas li { border: 2px solid var(--ink); }
+[data-contrast="high"] .slide-blur { display: none; }
+</style>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site-header gutter">
+  <div class="wrap header-row">
+    <a class="brand" href="#top" aria-label="Panchakoshi Disability Development Forum, home">
+      <img src="images/logo-small.jpg" alt="" width="96" height="96">
+      <span class="brand-text">
+        <span class="brand-tagline">"Equal rights, dignity and opportunity for all"</span>
+        <strong>Panchakoshi Disability Development Forum</strong>
+        <span class="np" lang="ne">पञ्चकोशी अपाङ्गता विकास मञ्च, दैलेख</span>
+      </span>
+    </a>
+    <div class="header-side">
+    <div class="lang-switch" role="group" aria-label="Language / भाषा">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+      <button class="lang-btn" type="button" id="lang-en" data-lang="en" aria-pressed="true" lang="en">English</button>
+      <button class="lang-btn" type="button" id="lang-ne" data-lang="ne" aria-pressed="false" lang="ne">नेपाली</button>
+    </div>
+    <div class="header-contact">
+      <p><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><a href="tel:+9779867097195">9867097195</a>, <a href="tel:+9779858042311">9858042311</a></p>
+      <p><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><a href="mailto:pddfdailekh03@gmail.com">pddfdailekh03@gmail.com</a></p>
+      <p><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Purano Bazar, Dailekh</p>
+    </div>
+    </div>
+  </div>
+</header>
+
+<div class="navbar gutter" id="site-header">
+  <div class="wrap navbar-inner">
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <ul class="nav-list">
+        <li><a class="nav-top" href="#top">Home</a></li>
+        <li class="has-sub"><button class="nav-top" type="button" id="btn-about" aria-expanded="false" aria-controls="menu-about">About Us<svg class="chev" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></button>
+          <ul class="submenu" id="menu-about"><li><a href="#about">About PDDF<span class="dotmark" aria-hidden="true"></span></a></li><li><a href="#vision">Vision, Mission and Goal<span class="dotmark" aria-hidden="true"></span></a></li><li><a href="#objectives">Objectives and Values<span class="dotmark" aria-hidden="true"></span></a></li><li class="has-sub"><button class="sub-toggle" type="button" id="btn-team" aria-expanded="false" aria-controls="menu-team"><span>Our Team</span><span style="display:flex;align-items:center;gap:0.5rem"><span class="dotmark" aria-hidden="true"></span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></span></button>
+          <ul class="submenu" id="menu-team"><li><a href="#board">Executive Board<span class="dotmark" aria-hidden="true"></span></a></li><li><a href="#members">General Members<span class="dotmark" aria-hidden="true"></span></a></li><li><a href="#contact">Contact Persons<span class="dotmark" aria-hidden="true"></span></a></li></ul></li><li><a href="#government">Working with Government<span class="dotmark" aria-hidden="true"></span></a></li><li><a href="#partners">Our Partners<span class="dotmark" aria-hidden="true"></span></a></li></ul></li>
+        <li class="has-sub"><button class="nav-top" type="button" id="btn-programmes" aria-expanded="false" aria-controls="menu-programmes">Our Programmes<svg class="chev" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></button>
+          <ul class="submenu" id="menu-programmes"><li><a href="#prog-power4ay">POWER4AY (current)<span class="dotmark" aria-hidden="true"></span></a></li><li><a href="#prog-bfl">Beyond the Finish Line<span class="dotmark" aria-hidden="true"></span></a></li><li><a href="#prog-shalg">SHALG<span class="dotmark" aria-hidden="true"></span></a></li><li><a href="#prog-cds">Client Dispatch Service<span class="dotmark" aria-hidden="true"></span></a></li><li><a href="#prog-cbr">Community Based Rehabilitation<span class="dotmark" aria-hidden="true"></span></a></li><li><a href="#prog-pr">Physical Rehabilitation<span class="dotmark" aria-hidden="true"></span></a></li><li><a href="#experience">Climate and WASH Experience<span class="dotmark" aria-hidden="true"></span></a></li></ul></li>
+        <li><a class="nav-top" href="#activities">Activities</a></li>
+        <li class="has-sub"><button class="nav-top" type="button" id="btn-docs" aria-expanded="false" aria-controls="menu-docs">Policies &amp; Reports<svg class="chev" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></button>
+          <ul class="submenu" id="menu-docs"><li><a href="#policies">Our Policies<span class="dotmark" aria-hidden="true"></span></a></li><li><a href="#reports">Progress Reports<span class="dotmark" aria-hidden="true"></span></a></li><li><a href="#activities">Recent Activities<span class="dotmark" aria-hidden="true"></span></a></li></ul></li>
+        <li><a class="nav-top" href="#gallery">Gallery</a></li>
+      </ul>
+    </nav>
+    <a class="nav-cta" href="#contact">Contact Us</a>
+  </div>
+</div>
+
+<main id="main">
+  <section class="slider" id="top" aria-roledescription="carousel" aria-label="Highlights">
+    <div class="slides" id="slides" aria-live="off">
+      <div class="slide current" role="group" aria-roledescription="slide" aria-label="1 of 4">
+        <div class="slide-content gutter">
+          <div class="wrap slide-grid">
+            <div class="slide-text">
+              <p class="eyebrow">Working in Dailekh since 2062 BS</p>
+              <h1 class="slide-title">Equal rights, dignity and opportunity for every person with a disability</h1>
+              <p class="slide-lede">An organization led by persons with disabilities, working with communities, local governments and partners across Dailekh.</p>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="#programmes">Our programmes</a>
+                <a class="btn btn-ghost" href="#about">About us</a>
+              </div>
+            </div>
+            <figure class="slide-photo">
+              <img class="slide-img" src="images/community-session-hills.jpg" alt="" fetchpriority="high" width="1600" height="720">
+              <figcaption class="slide-caption">Community session in the hills of Dailekh</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="slide" role="group" aria-roledescription="slide" aria-label="2 of 4">
+        <div class="slide-content gutter">
+          <div class="wrap slide-grid">
+            <div class="slide-text">
+              <p class="eyebrow">Current programme · POWER4AY</p>
+              <h2 class="slide-title">Skills and self-employment for young people with disabilities</h2>
+              <p class="slide-lede">With Save the Children and Everest Club in Dullu and Narayan municipalities, 2024 to 2026.</p>
+              <div class="hero-actions"><a class="btn btn-primary" href="#programmes">Read more</a></div>
+            </div>
+            <figure class="slide-photo">
+              <img class="slide-img" src="images/power4ay-training.jpg" alt="" loading="lazy" width="1600" height="757">
+              <figcaption class="slide-caption">Capacity development training for disability network officials, Narayan Municipality</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="slide" role="group" aria-roledescription="slide" aria-label="3 of 4">
+        <div class="slide-content gutter">
+          <div class="wrap slide-grid">
+            <div class="slide-text">
+              <p class="eyebrow">Advocacy</p>
+              <h2 class="slide-title">Raising our voice for disability rights</h2>
+              <p class="slide-lede">We work with local and provincial government so laws for persons with disabilities are put into practice.</p>
+              <div class="hero-actions"><a class="btn btn-primary" href="#experience">Our experience</a></div>
+            </div>
+            <figure class="slide-photo">
+              <img class="slide-img" src="images/disability-day-memorandum.jpg" alt="" loading="lazy" width="1280" height="960">
+              <figcaption class="slide-caption">Memorandum handed over on the 34th International Day of Persons with Disabilities, Dailekh</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="slide" role="group" aria-roledescription="slide" aria-label="4 of 4">
+        <div class="slide-content gutter">
+          <div class="wrap slide-grid">
+            <div class="slide-text">
+              <p class="eyebrow">Community work</p>
+              <h2 class="slide-title">No one left behind</h2>
+              <p class="slide-lede">Women, persons with disabilities and excluded groups taking part in planning for their own communities.</p>
+              <div class="hero-actions"><a class="btn btn-primary" href="#gallery">See photos</a></div>
+            </div>
+            <figure class="slide-photo">
+              <img class="slide-img" src="images/womens-group-session.jpg" alt="" loading="lazy" width="1600" height="720">
+              <figcaption class="slide-caption">Women's group session in Dailekh</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-controls gutter">
+      <div class="wrap"><div class="slider-pill">
+        <button class="ctrl" type="button" id="prev-slide" aria-label="Previous slide"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m15 5-7 7 7 7"/></svg></button>
+        <button class="ctrl" type="button" id="play-slide" aria-label="Pause slideshow"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" id="play-icon"><path d="M9 5v14M15 5v14"/></svg></button>
+        <button class="ctrl" type="button" id="next-slide" aria-label="Next slide"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m9 5 7 7-7 7"/></svg></button>
+        <div class="dots" id="dots"></div>
+      </div></div>
+    </div>
+  </section>
+
+  <div class="stats gutter">
+    <svg class="band-wave" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+      <path class="wave-line2" d="M0 22 C 240 0, 480 0, 720 18 S 1200 38, 1440 10"/>
+      <path class="wave-line" d="M0 28 C 240 6, 480 6, 720 24 S 1200 44, 1440 16"/>
+    </svg>
+    <div class="wrap stats-row">
+      <div class="stat"><b data-count="9">9</b><span>board members, all persons with disabilities</span></div>
+      <div class="stat"><b data-count="33">33</b><span>general members from every palika of Dailekh</span></div>
+      <div class="stat"><b data-count="6">6</b><span>major programmes with development partners</span></div>
+      <div class="stat"><b data-count="20" data-suffix="+">20+</b><span>years of service, since 2062 BS</span></div>
+    </div>
+  </div>
+
+  <section class="section gutter" id="about" aria-labelledby="about-title">
+    <div class="wrap about-grid">
+      <div class="about-photo reveal">
+        <img src="images/members-meeting-sm.jpg" alt="PDDF members and partners, including a wheelchair user and people using crutches, gathered together for a group photo" loading="lazy" width="800" height="472">
+        <div class="about-badge"><b>2062</b>Registered (BS)</div>
+      </div>
+      <div class="about-text reveal">
+        <p class="eyebrow">About us</p>
+        <h2 id="about-title">Who we are</h2>
+        <p>Panchakoshi Disability Development Forum, Dailekh was registered with the District Administration Office, Dailekh on 18 Phalgun 2062 BS. We help disadvantaged people gain equal access to, control over and ownership of natural, economic and social resources.</p>
+        <p>Our target groups are persons with disabilities and people who are socially and economically excluded. PDDF is a well-governed, transparent organization and a leading voice for disability rights advocacy in Dailekh.</p>
+        <ul class="work-areas pop-group" aria-label="Areas of work">
+          <li>Empowerment</li><li>Drinking water and sanitation</li><li>Micro-enterprise</li><li>Income generation</li>
+          <li>Small irrigation</li><li>Disaster risk reduction</li><li>Nutrition</li><li>Climate change</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote-band gutter" aria-label="Our guiding principle">
+    <img src="images/members-meeting.jpg" alt="" loading="lazy">
+    <figure class="wrap quote-inner reveal">
+      <svg class="quote-heart" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path pathLength="100" d="M12 20.5s-7.4-4.5-9.4-9C1.2 8.2 3.2 4.8 6.6 4.8c2 0 3.5 1.1 5.4 3.3 1.9-2.2 3.4-3.3 5.4-3.3 3.4 0 5.4 3.4 4 6.7-2 4.5-9.4 9-9.4 9z"/></svg>
+      <blockquote><p>Nothing about us without us.</p></blockquote>
+      <figcaption>The heart of the disability rights movement, and the way PDDF is run</figcaption>
+      <p class="quote-note">Every member of our board is a person with a disability. Our work is planned and led by the people it serves.</p>
+    </figure>
+  </section>
+
+  <section class="section alt gutter" id="vision" aria-labelledby="vision-title">
+    <div class="wrap">
+      <div class="section-intro center reveal">
+        <p class="eyebrow">Our direction</p>
+        <h2 id="vision-title">Vision, mission and goal</h2>
+      </div>
+      <div class="vm">
+        <div class="vm-item reveal">
+          <span class="vm-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></span>
+          <h3>Vision</h3>
+          <p>A just and inclusive society where all persons with disabilities enjoy equal rights, opportunities and dignity, and lead self-reliant, fulfilling lives.</p>
+        </div>
+        <div class="vm-item reveal">
+          <span class="vm-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span>
+          <h3>Mission</h3>
+          <p>To improve the social, economic and cultural well-being of persons with disabilities through accessible programmes, community engagement and strategic advocacy, so that no one is left behind.</p>
+        </div>
+        <div class="vm-item reveal">
+          <span class="vm-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 21V4M5 4h11l-2 4 2 4H5"/></svg></span>
+          <h3>Goal</h3>
+          <p>To expand access to inclusive social, economic, educational and livelihood opportunities, so persons with disabilities can be self-reliant, exercise their rights and take part fully in society.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section sky gutter" id="objectives" aria-labelledby="objectives-title">
+    <div class="wrap">
+      <div class="section-intro center reveal">
+        <p class="eyebrow">What we aim for</p>
+        <h2 id="objectives-title">Our objectives</h2>
+      </div>
+      <ol class="objectives">
+        <li class="reveal"><h3>Make services accessible</h3><p>Design and deliver inclusive, fair and barrier-free services that improve the quality of life of persons with disabilities.</p></li>
+        <li class="reveal"><h3>Promote education and livelihoods</h3><p>Increase access to quality education, vocational training and lasting employment suited to each person's needs and goals.</p></li>
+        <li class="reveal"><h3>Build self-reliance</h3><p>Strengthen personal, social and financial capacity through skill development, peer support and independent living programmes.</p></li>
+        <li class="reveal"><h3>Raise community awareness</h3><p>Run regular awareness and sensitization campaigns that reduce stigma and build respect for disability rights.</p></li>
+        <li class="reveal"><h3>Advocate for systemic change</h3><p>Champion the rights, dignity and real participation of persons with disabilities in policy, governance and the public and private sectors.</p></li>
+        <li class="reveal"><h3>Build strong partnerships</h3><p>Work with government, civil society, development partners and the private sector for coordinated, sustainable disability-inclusive development.</p></li>
+      </ol>
+      <ul class="values reveal pop-group" aria-label="Core values">
+        <li><strong>Inclusivity</strong> · embracing diversity</li>
+        <li><strong>Respect</strong> · dignity of every person</li>
+        <li><strong>Empowerment</strong> · self-determination</li>
+        <li><strong>Accountability</strong> · transparency and integrity</li>
+        <li><strong>Collaboration</strong> · alliances for impact</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section alt gutter" id="programmes" aria-labelledby="prog-title">
+    <div class="wrap">
+      <div class="section-intro reveal">
+        <p class="eyebrow">Our work</p>
+        <h2 id="prog-title">Major programmes and partners</h2>
+        <p>Newest first.</p>
+      </div>
+      <ul class="programmes">
+        <li id="prog-power4ay" class="prog featured reveal">
+          <img src="images/power4ay-training-sm.jpg" alt="Participants of a POWER4AY capacity development training, some using crutches and walking sticks, seated behind a Save the Children banner" loading="lazy" width="800" height="378">
+          <div class="prog-body">
+            <p class="prog-when">July 2024 to June 2026</p>
+            <h3>POWER4AY <span class="status">Ongoing</span></h3>
+            <div class="prog-meta">
+              <p>Pathways to Wellbeing, Empowerment and Resilience for Adolescents and Youths</p>
+              <p><b>Partners:</b> Save the Children, Everest Club</p>
+              <p><b>Area:</b> Dullu and Narayan municipalities, Dailekh</p>
+            </div>
+            <ul>
+              <li>Self-employment for persons with disabilities aged 16 to 25 through micro-enterprise.</li>
+              <li>Statistical profiles of persons with disabilities for both municipalities.</li>
+              <li>Orientation and training for the Disability Coordination Committee.</li>
+            </ul>
+          </div>
+        </li>
+        <li id="prog-bfl" class="prog reveal">
+          <p class="prog-when">Aug 2019 to June 2023</p>
+          <h3>Beyond the Finish Line (BFL): Inclusive and Sustainable RWSS</h3>
+          <div class="prog-meta">
+            <p><b>Partners:</b> SNV Nepal, IWMI Nepal, Everest Club</p>
+            <p><b>Area:</b> Mahabu, Dungeshwor, Naumule and Gurans rural municipalities</p>
+          </div>
+          <ul>
+            <li>Formed and strengthened DPO networks at district and palika level.</li>
+            <li>Supported inclusive WASH coordination committees.</li>
+            <li>Trained political leaders and stakeholders on disability-inclusive development.</li>
+          </ul>
+        </li>
+        <li id="prog-shalg" class="prog reveal">
+          <p class="prog-when">June 2014 to July 2015</p>
+          <h3>Strengthening the Accountability of Local Government (SHALG)</h3>
+          <div class="prog-meta">
+            <p><b>Partner:</b> SHALG District Programme Support Unit, Dailekh</p>
+            <p><b>Area:</b> Badakhola, Kharigaira and Raniban VDCs</p>
+          </div>
+          <ul>
+            <li>Meaningful participation and representation of the target community.</li>
+            <li>Greater accountability of stakeholders.</li>
+            <li>Empowerment of poor, marginalized and excluded communities.</li>
+          </ul>
+        </li>
+        <li id="prog-cds" class="prog reveal">
+          <p class="prog-when">Aug 2010 to June 2015</p>
+          <h3>Client Dispatch Service</h3>
+          <div class="prog-meta">
+            <p><b>Partner:</b> INF Surkhet</p>
+            <p><b>Area:</b> All VDCs of Dailekh</p>
+          </div>
+          <ul>
+            <li>Selected persons with disabilities for assistive devices and, with the VDCs, sent their names and recommendations to INF.</li>
+          </ul>
+        </li>
+        <li id="prog-cbr" class="prog reveal">
+          <p class="prog-when">June 2008 to Aug 2014</p>
+          <h3>Community Based Rehabilitation (CBR)</h3>
+          <div class="prog-meta">
+            <p><b>Partner:</b> Women and Children's Office, Dailekh</p>
+            <p><b>Area:</b> All VDCs of Dailekh</p>
+          </div>
+          <ul>
+            <li>Identified and registered persons with disabilities in communities.</li>
+            <li>Assessed needs and prepared individual rehabilitation plans.</li>
+            <li>Ran awareness programmes on disability rights and inclusion.</li>
+          </ul>
+        </li>
+        <li id="prog-pr" class="prog reveal">
+          <p class="prog-when">Earlier programme</p>
+          <h3>Physical Rehabilitation Project</h3>
+          <div class="prog-meta">
+            <p><b>Partner:</b> District Development Committee Office, Dailekh</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section gutter" id="activities" aria-labelledby="act-title">
+    <div class="wrap">
+      <div class="section-intro reveal">
+        <p class="eyebrow">What we are doing now</p>
+        <h2 id="act-title">Recent activities</h2>
+        <p>News from our ongoing work, newest first.</p>
+      </div>
+      <ul class="act-grid" id="activity-list" aria-live="polite"></ul>
+      <div class="more-row" id="activity-more" hidden><button class="btn btn-primary" type="button" id="activity-more-btn">Show all activities</button></div>
+    </div>
+  </section>
+
+  <section class="section band gutter" id="experience" aria-labelledby="exp-title">
+    <div class="wrap band-grid">
+      <div class="band-photo reveal">
+        <img src="images/community-session-hills-sm.jpg" alt="A facilitator leads an outdoor community session on a hillside in Dailekh, with participants seated on mats and chairs and green mountains behind" loading="lazy" width="800" height="360">
+      </div>
+      <div class="band-text reveal">
+        <div class="section-intro" style="margin-bottom:0">
+          <p class="eyebrow">Expertise</p>
+          <h2 id="exp-title">Climate-resilient, inclusive water and sanitation</h2>
+        </div>
+        <p>Around 80% of Nepal's people are at risk from climate-related disasters, and women, children and persons with disabilities are hit hardest. Through Beyond the Finish Line, PDDF led social mobilization with SNV Nepal and IWMI Nepal in four rural municipalities.</p>
+        <ul class="checks">
+          <li>Mapped disaster-prone locations and prepared risk-reduction action plans.</li>
+          <li>Used the GESI Self-Assessment Tool in municipal plans and budgets.</li>
+          <li>Rebuilt gravity-fed water schemes with climate-adaptive technology.</li>
+          <li>Prepared water safety plans for each source.</li>
+          <li>Brought women entrepreneurs into water system maintenance.</li>
+          <li>Introduced accessible water-source and tap designs.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section gutter" aria-labelledby="gov-title">
+    <div class="wrap">
+      <div id="government" class="panel reveal">
+        <h3 id="gov-title">Working with government</h3>
+        <p>We coordinate with the District Administration Office, District Police Office, District Coordination Committee, Social Development Office and other agencies to put disability rights laws into practice. For community-based rehabilitation we have worked with the Ministry of Women, Children and Senior Citizens and with ministries of Karnali Province.</p>
+        <p>We help municipalities with disability data collection, individual plans, access to government services, strategic planning and disaster information guidelines.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt gutter" id="policies" aria-labelledby="docs-title">
+    <div class="wrap">
+      <div class="section-intro reveal">
+        <p class="eyebrow">Transparency</p>
+        <h2 id="docs-title">Policies and reports</h2>
+        <p>Clear policies guide everyone who works with PDDF. Our policies and progress reports are published here so anyone can read them.</p>
+      </div>
+      <div class="docs-head">
+        <h3>Our policies</h3>
+      </div>
+      <ul class="docs-grid" id="policy-list" aria-live="polite"></ul>
+      <div class="docs-head" id="reports">
+        <h3>Progress reports</h3>
+        <p>Annual, programme and audit reports</p>
+      </div>
+      <ul class="report-list" id="report-list" aria-live="polite"></ul>
+    </div>
+  </section>
+
+  <section class="section alt gutter" id="gallery" aria-labelledby="gallery-title">
+    <div class="wrap">
+      <div class="section-intro center reveal">
+        <p class="eyebrow">Gallery</p>
+        <h2 id="gallery-title">Our work in pictures</h2>
+        <p>Select a photo to see it larger.</p>
+      </div>
+      <div class="gallery">
+        <figure class="wide reveal">
+          <button class="g-btn" type="button" data-full="images/power4ay-training.jpg"><img src="images/power4ay-training-sm.jpg" alt="Participants of a POWER4AY capacity development training seated behind a Save the Children banner" loading="lazy" width="800" height="378"></button>
+          <figcaption>POWER4AY capacity development training, Narayan Municipality</figcaption>
+        </figure>
+        <figure class="wide reveal">
+          <button class="g-btn" type="button" data-full="images/community-session-hills.jpg"><img src="images/community-session-hills-sm.jpg" alt="Outdoor community session on a hillside with mountains behind" loading="lazy" width="800" height="360"></button>
+          <figcaption>Community session in the hills of Dailekh</figcaption>
+        </figure>
+        <figure class="reveal">
+          <button class="g-btn" type="button" data-full="images/disability-day-memorandum.jpg"><img src="images/disability-day-memorandum-sm.jpg" alt="PDDF representatives handing a memorandum to an official in front of a banner for the International Day of Persons with Disabilities" loading="lazy" width="800" height="600"></button>
+          <figcaption>Memorandum on the 34th International Day of Persons with Disabilities</figcaption>
+        </figure>
+        <figure class="reveal">
+          <button class="g-btn" type="button" data-full="images/members-meeting.jpg"><img src="images/members-meeting-sm.jpg" alt="Group photo of members and partners, including a wheelchair user" loading="lazy" width="800" height="472"></button>
+          <figcaption>Members and partners together</figcaption>
+        </figure>
+        <figure class="reveal">
+          <button class="g-btn" type="button" data-full="images/womens-group-session.jpg"><img src="images/womens-group-session-sm.jpg" alt="Women seated on the grass in a hillside group session with picture cards laid out on the ground" loading="lazy" width="800" height="360"></button>
+          <figcaption>Women's group session with picture cards</figcaption>
+        </figure>
+      </div>
+    </div>
+    <dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+      <img id="lb-img" src="" alt="">
+      <p id="lb-caption"></p>
+      <div class="lb-bar">
+        <button type="button" id="lb-prev">Previous</button>
+        <button type="button" id="lb-close">Close</button>
+        <button type="button" id="lb-next">Next</button>
+      </div>
+    </dialog>
+  </section>
+
+  <section class="section gutter" id="board" aria-labelledby="board-title">
+    <div class="wrap">
+      <div class="section-intro reveal">
+        <p class="eyebrow">Governance</p>
+        <h2 id="board-title">Executive board</h2>
+        <p>9 members: 6 men and 3 women. Every board member is a person with a disability.</p>
+      </div>
+      <div class="table-wrap reveal" tabindex="0" role="region" aria-labelledby="board-title">
+        <table>
+          <caption>Governance board, Profile 2083</caption>
+          <thead>
+            <tr><th scope="col">S.N.</th><th scope="col">Name</th><th scope="col">Position</th><th scope="col">Sex</th><th scope="col">Type of disability</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="num">1</td><th scope="row">Kamal Bahadur Khadka</th><td class="role">Chairperson</td><td>Male</td><td>Physical (leg)</td></tr>
+            <tr><td class="num">2</td><th scope="row">Pabitra Kumari Magar</th><td class="role">Vice Chairperson</td><td>Female</td><td>Visual impairment</td></tr>
+            <tr><td class="num">3</td><th scope="row">Rupa Kumari Khadka</th><td class="role">Treasurer</td><td>Female</td><td>Physical (leg and hand)</td></tr>
+            <tr><td class="num">4</td><th scope="row">Jit Bahadur G.C.</th><td class="role">Secretary General</td><td>Male</td><td>Physical (lost right hand)</td></tr>
+            <tr><td class="num">5</td><th scope="row">Vim Bahadur B.K.</th><td>Member</td><td>Male</td><td>Physical (lost right hand)</td></tr>
+            <tr><td class="num">6</td><th scope="row">Om Prasad Sharma</th><td>Member</td><td>Male</td><td>Visual impairment</td></tr>
+            <tr><td class="num">7</td><th scope="row">Jhakad Bahadur Malla</th><td>Member</td><td>Male</td><td>Physical (leg)</td></tr>
+            <tr><td class="num">8</td><th scope="row">Kumar Gautam</th><td>Member</td><td>Male</td><td>Multiple, wheelchair user</td></tr>
+            <tr><td class="num">9</td><th scope="row">Ratna Kumari Khatri</th><td>Member</td><td>Female</td><td>Physical (leg)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note" id="members">General membership: 33 members (20 men, 13 women) from all palikas of Dailekh district.</p>
+    </div>
+  </section>
+
+  <section class="partners gutter" id="partners" aria-labelledby="partners-title">
+    <div class="wrap">
+      <div class="partners-head">
+        <h2 id="partners-title">Partners we have worked with</h2>
+        <button class="pause-btn" type="button" id="marquee-btn" aria-pressed="false">Pause scrolling</button>
+      </div>
+      <div class="marquee" id="marquee">
+        <div class="marquee-track">
+          <ul>
+            <li>Save the Children</li><li>SNV Nepal</li><li>IWMI Nepal</li><li>Everest Club</li><li>INF Surkhet</li>
+            <li>SHALG Dailekh</li><li>Women and Children's Office, Dailekh</li><li>District Development Committee, Dailekh</li>
+            <li>Narayan Municipality</li><li>Dullu Municipality</li>
+          </ul>
+          <ul aria-hidden="true">
+            <li>Save the Children</li><li>SNV Nepal</li><li>IWMI Nepal</li><li>Everest Club</li><li>INF Surkhet</li>
+            <li>SHALG Dailekh</li><li>Women and Children's Office, Dailekh</li><li>District Development Committee, Dailekh</li>
+            <li>Narayan Municipality</li><li>Dullu Municipality</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section sky gutter" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <div class="section-intro center reveal">
+        <p class="eyebrow">Get in touch</p>
+        <h2 id="contact-title">Contact us</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <h3>Office</h3>
+          <p>Narayan Municipality, Ward No. 1<br>Purano Bazar, Dailekh<br>Karnali Province, Nepal</p>
+          <div class="contact-line"><a href="mailto:pddfdailekh03@gmail.com">pddfdailekh03@gmail.com</a><button class="copy-btn" type="button" id="copy-email-1" data-copy="pddfdailekh03@gmail.com">Copy</button></div>
+        </div>
+        <div class="contact-card reveal">
+          <h3>Kamal Bahadur Khadka</h3>
+          <p class="who">Chairperson</p>
+          <div class="contact-line"><a href="tel:+9779867097195">9867097195</a><button class="copy-btn" type="button" id="copy-phone-1" data-copy="9867097195">Copy</button></div>
+          <div class="contact-line"><a href="mailto:khadka.kamald2024@gmail.com">khadka.kamald2024@gmail.com</a><button class="copy-btn" type="button" id="copy-email-2" data-copy="khadka.kamald2024@gmail.com">Copy</button></div>
+        </div>
+        <div class="contact-card reveal">
+          <h3>Jit Bahadur G.C.</h3>
+          <p class="who">Secretary General</p>
+          <div class="contact-line"><a href="tel:+9779858042311">9858042311</a><button class="copy-btn" type="button" id="copy-phone-2" data-copy="9858042311">Copy</button></div>
+        </div>
+      </div>
+      <div class="find-us">
+        <div>
+          <div class="map-card" id="map-card">
+            <div class="map-placeholder" id="map-placeholder">
+              <span class="map-pin"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span>
+              <strong>Purano Bazar, Dailekh</strong>
+              <p>Narayan Municipality, Ward No. 1, Karnali Province</p>
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Purano+Bazar%2C+Narayan+Municipality%2C+Dailekh%2C+Nepal" target="_blank" rel="noopener">Open in Google Maps</a>
+            </div>
+          </div>
+          <p class="map-under"><span>Our office: Narayan Municipality-1, Purano Bazar, Dailekh</span><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Purano+Bazar%2C+Narayan+Municipality%2C+Dailekh%2C+Nepal" target="_blank" rel="noopener">Get directions</a></p>
+        </div>
+        <div class="areas reveal">
+          <h3>Where we have worked</h3>
+          <p>Across Dailekh district, with communities, municipalities and partners.</p>
+          <ul class="area-list pop-group" aria-label="Working areas">
+            <li class="now"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>Narayan Municipality</li><li class="now"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>Dullu Municipality</li><li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>Mahabu Rural Municipality</li><li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>Dungeshwor Rural Municipality</li><li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>Naumule Rural Municipality</li><li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>Gurans Rural Municipality</li><li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>Thantikandh Rural Municipality</li><li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>Badakhola, Kharigaira and Raniban (former VDCs)</li><li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>All VDCs of Dailekh (CBR, Client Dispatch)</li>
+          </ul>
+          <p class="legend"><span aria-hidden="true">●</span> Red pins: current programme (POWER4AY)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer gutter">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <img src="images/logo-small.jpg" alt="" width="96" height="96">
+      <strong>Panchakoshi Disability Development Forum</strong>
+      <p class="np" lang="ne">पञ्चकोशी अपाङ्गता विकास मञ्च, दैलेख</p>
+      <p>Working for equal rights, dignity and opportunity for persons with disabilities in Dailekh since 2062 BS.</p>
+      <nav class="social footer-social" id="social-footer" aria-label="PDDF on social media"></nav>
+    </div>
+    <div>
+      <h2>Quick links</h2>
+      <ul>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#programmes">Programmes</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#board">Executive board</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Contact</h2>
+      <ul>
+        <li>Narayan Municipality-1, Purano Bazar, Dailekh</li>
+        <li><a href="tel:+9779867097195">9867097195</a></li>
+        <li><a href="tel:+9779858042311">9858042311</a></li>
+        <li><a href="mailto:pddfdailekh03@gmail.com">pddfdailekh03@gmail.com</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Registration</h2>
+      <ul>
+        <li>DAO Dailekh: 148/062/063</li>
+        <li>SWC: 19866</li>
+        <li>PAN: 302332951</li>
+        <li>Renewal: Regular</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© Panchakoshi Disability Development Forum, Dailekh</p>
+    <p><a href="#top" style="color:inherit">Back to top</a></p>
+  </div>
+</footer>
+
+<button class="a11y-fab" type="button" id="a11y-open" aria-expanded="false" aria-controls="a11y-panel" aria-label="Accessibility options">
+  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="4.5" r="1.8"/><path d="M5 8.5l7 1.5 7-1.5M12 10v4.5M12 14.5l-3.5 6M12 14.5l3.5 6"/></svg>
+  <span class="fab-tip" aria-hidden="true">Accessibility</span>
+</button>
+<aside class="a11y-panel" id="a11y-panel" aria-labelledby="a11y-title" tabindex="-1">
+  <div class="a11y-head">
+    <h2 id="a11y-title">Accessibility</h2>
+    <button class="a11y-close" type="button" id="a11y-close">Close</button>
+  </div>
+  <div class="a11y-section" role="group" aria-labelledby="lang-label">
+    <p id="lang-label">Language</p>
+    <div class="lang-row">
+      <button class="a11y-btn lang-btn" type="button" id="lang-en-2" data-lang="en" aria-pressed="true" lang="en">English</button>
+      <button class="a11y-btn lang-btn" type="button" id="lang-ne-2" data-lang="ne" aria-pressed="false" lang="ne">नेपाली</button>
+    </div>
+  </div>
+  <div class="a11y-section" role="group" aria-labelledby="size-label">
+    <p id="size-label">Text size</p>
+    <div class="size-row">
+      <button class="a11y-btn size-btn" type="button" id="size-0" data-size="0" aria-pressed="true" aria-label="Normal text size">A</button>
+      <button class="a11y-btn size-btn" type="button" id="size-1" data-size="1" aria-pressed="false" aria-label="Larger text size" style="font-size:1.15rem">A+</button>
+      <button class="a11y-btn size-btn" type="button" id="size-2" data-size="2" aria-pressed="false" aria-label="Largest text size" style="font-size:1.35rem">A++</button>
+    </div>
+  </div>
+  <div class="a11y-section">
+    <p>Display and reading</p>
+    <div class="a11y-tiles">
+      <button class="a11y-btn" type="button" id="contrast-btn" aria-pressed="false"><span class="tick" aria-hidden="true">✓</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 3v18a9 9 0 0 0 0-18z" fill="currentColor"/></svg>High contrast</button>
+      <button class="a11y-btn" type="button" id="spacing-btn" aria-pressed="false"><span class="tick" aria-hidden="true">✓</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Easy reading</button>
+      <button class="a11y-btn" type="button" id="cursor-btn" aria-pressed="false"><span class="tick" aria-hidden="true">✓</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 3v16l4.5-4.5 3 6.5 3-1.4-3-6.4H19z"/></svg>Big cursor</button>
+      <button class="a11y-btn" type="button" id="motion-btn" aria-pressed="false"><span class="tick" aria-hidden="true">✓</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6"/></svg>Stop animations</button>
+      <button class="a11y-btn" type="button" id="speak-btn" aria-pressed="false" hidden><span class="tick" aria-hidden="true">✓</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 9v6h4l5 4V5L8 9zM16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg><span id="speak-label">Read aloud</span></button>
+    </div>
+  </div>
+  <button class="a11y-reset" type="button" id="a11y-reset">Reset all settings</button>
+  <p class="a11y-note">Your choices are remembered on this device.</p>
+</aside>
+<div class="cursor-ring" id="cursor-ring" aria-hidden="true"><span></span></div>
+
+<div class="reader" id="reader" role="region" aria-label="Read aloud player" hidden>
+  <div class="reader-info"><span class="reader-dot" aria-hidden="true"></span><span id="reader-status" aria-live="polite">Ready</span></div>
+  <div class="reader-controls">
+    <button class="rd-btn" type="button" id="rd-start" aria-label="Read from the beginning" title="Read from the beginning"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 5h2v14H6zM20 5v14l-10-7z"/></svg></button>
+    <button class="rd-btn" type="button" id="rd-prev" aria-label="Previous part" title="Previous part"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 5v14l-9-7zM6 5h2v14H6z"/></svg></button>
+    <button class="rd-btn main" type="button" id="rd-play" aria-label="Pause" title="Pause"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg></button>
+    <button class="rd-btn" type="button" id="rd-next" aria-label="Next part" title="Next part"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 5v14l9-7zM16 5h2v14h-2z"/></svg></button>
+    <button class="rd-btn" type="button" id="rd-speed" aria-label="Reading speed" title="Reading speed">1×</button>
+    <button class="rd-btn" type="button" id="rd-close" aria-label="Close player" title="Close player"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.4 5 12 10.6 17.6 5 19 6.4 13.4 12 19 17.6 17.6 19 12 13.4 6.4 19 5 17.6 10.6 12 5 6.4z"/></svg></button>
+  </div>
+  <p class="reader-hint" id="reader-hint">Tip: click any text to read it from there.</p>
+</div>
+<nav class="social" id="social" aria-label="PDDF on social media"></nav>
+<button class="to-top" type="button" id="to-top" aria-label="Back to top" data-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 14 6-6 6 6"/></svg></button>
+
+<script type="application/json" id="data-activities">[{"title": "Memorandum on the 34th International Day of Persons with Disabilities", "date": "3 December 2025 (17 Mangsir 2082)", "category": "Advocacy", "summary": "On the International Day of Persons with Disabilities, PDDF and partners handed over a memorandum in Dailekh under the theme \"Fostering disability inclusive societies for advancing social progress\".", "photo": "/uploads/activities/disability-day-2082.jpg", "photo_description": "PDDF representatives handing a memorandum to an official in front of a banner for the International Day of Persons with Disabilities", "title_ne": "३४औं अन्तर्राष्ट्रिय अपाङ्गता भएका व्यक्तिहरूको दिवसमा ज्ञापनपत्र", "date_ne": "२०८२ मंसिर १७ (३ डिसेम्बर २०२५)", "category_ne": "पैरवी", "summary_ne": "अन्तर्राष्ट्रिय अपाङ्गता भएका व्यक्तिहरूको दिवसमा मञ्च र साझेदारहरूले \"अपाङ्गता समावेशी समाज: सामाजिक उन्नतिको संवर्द्धन\" भन्ने नाराका साथ दैलेखमा ज्ञापनपत्र हस्तान्तरण गरे।", "photo_description_ne": "अन्तर्राष्ट्रिय अपाङ्गता दिवसको ब्यानरअगाडि मञ्चका प्रतिनिधिहरूले अधिकारीलाई ज्ञापनपत्र हस्तान्तरण गर्दै"}, {"title": "Capacity development training for disability network officials", "date": "", "category": "POWER4AY", "summary": "A two-day capacity development training for office bearers of municipal-level disability networks and organizations in Narayan Municipality, under the POWER4AY programme with Save the Children.", "photo": "/uploads/activities/power4ay-capacity-training.jpg", "photo_description": "Participants of the training, some using crutches and walking sticks, seated behind a Save the Children banner", "title_ne": "अपाङ्गता सञ्जालका पदाधिकारीहरूलाई क्षमता अभिवृद्धि तालिम", "date_ne": "", "category_ne": "POWER4AY", "summary_ne": "सेभ द चिल्ड्रेनसँगको POWER4AY कार्यक्रमअन्तर्गत नारायण नगरपालिकामा नगरस्तरीय अपाङ्गता सञ्जाल तथा संस्थाका पदाधिकारीहरूलाई दुई दिने क्षमता अभिवृद्धि तालिम।", "photo_description_ne": "सेभ द चिल्ड्रेनको ब्यानरपछाडि बसेका तालिमका सहभागीहरू, केही बैसाखी र लौरो प्रयोग गर्दै"}]</script>
+<script type="application/json" id="data-policies">[{"title": "Administrative Policy", "description": "How PDDF is run day to day: decision making, roles and office procedures.", "file": "", "updated": "", "title_ne": "प्रशासनिक नीति", "description_ne": "मञ्चको दैनिक सञ्चालन: निर्णय प्रक्रिया, भूमिका र कार्यालय कार्यविधि।", "updated_ne": ""}, {"title": "Financial Management Policy", "description": "How funds are received, approved, spent, recorded and audited.", "file": "", "updated": "", "title_ne": "आर्थिक व्यवस्थापन नीति", "description_ne": "रकम प्राप्ति, स्वीकृति, खर्च, लेखाङ्कन र लेखापरीक्षणको तरिका।", "updated_ne": ""}, {"title": "Personnel Policy", "description": "Recruitment, staff rights and duties, leave and conduct of staff.", "file": "", "updated": "", "title_ne": "कर्मचारी नीति", "description_ne": "कर्मचारी भर्ना, अधिकार र कर्तव्य, बिदा र आचरण।", "updated_ne": ""}, {"title": "Anti-Fraud and Anti-Corruption Policy", "description": "Zero tolerance for fraud and corruption, and how concerns are reported and handled.", "file": "", "updated": "", "title_ne": "जालसाजी तथा भ्रष्टाचार विरोधी नीति", "description_ne": "जालसाजी र भ्रष्टाचारप्रति शून्य सहनशीलता, र उजुरी गर्ने तथा कारबाहीको प्रक्रिया।", "updated_ne": ""}, {"title": "Code of Conduct", "description": "The standards of behaviour expected from board members, staff and volunteers.", "file": "", "updated": "", "title_ne": "आचारसंहिता", "description_ne": "कार्यसमिति सदस्य, कर्मचारी र स्वयंसेवकबाट अपेक्षित आचरणका मापदण्ड।", "updated_ne": ""}]</script>
+<script type="application/json" id="data-reports">[]</script>
+<script type="application/json" id="data-social">{"facebook": "https://www.facebook.com/profile.php?id=61579036393126", "youtube": "", "instagram": "", "whatsapp": "", "tiktok": "", "linkedin": "", "email": "pddfdailekh03@gmail.com"}</script>
+<script type="application/json" id="i18n-ne">{"Skip to main content": "मुख्य सामग्रीमा जानुहोस्", "\"Equal rights, dignity and opportunity for all\"": "\"सबैका लागि समान अधिकार, सम्मान र अवसर\"", "Panchakoshi Disability Development Forum": "पञ्चकोशी अपाङ्गता विकास मञ्च", "Purano Bazar, Dailekh": "पुरानो बजार, दैलेख", "Home": "गृहपृष्ठ", "About Us": "हाम्रो बारेमा", "About PDDF": "मञ्चको परिचय", "Vision, Mission and Goal": "दूरदृष्टि, ध्येय र लक्ष्य", "Objectives and Values": "उद्देश्य र मूल्यहरू", "Our Team": "हाम्रो टोली", "Executive Board": "कार्यसमिति", "General Members": "साधारण सदस्यहरू", "Contact Persons": "सम्पर्क व्यक्तिहरू", "Working with Government": "सरकारसँगको सहकार्य", "Our Partners": "हाम्रा साझेदारहरू", "Our Programmes": "हाम्रा कार्यक्रमहरू", "POWER4AY (current)": "POWER4AY (हाल सञ्चालित)", "Beyond the Finish Line": "बियोन्ड द फिनिस लाइन", "SHALG": "SHALG", "Client Dispatch Service": "क्लाइन्ट डिस्प्याच सेवा", "Community Based Rehabilitation": "समुदायमा आधारित पुनर्स्थापना", "Physical Rehabilitation": "शारीरिक पुनर्स्थापना", "Climate and WASH Experience": "जलवायु र खानेपानी तथा सरसफाइ अनुभव", "Activities": "गतिविधिहरू", "Policies & Reports": "नीति र प्रतिवेदन", "Our Policies": "हाम्रा नीतिहरू", "Progress Reports": "प्रगति प्रतिवेदनहरू", "Recent Activities": "हालका गतिविधिहरू", "Gallery": "तस्बिरहरू", "Contact Us": "सम्पर्क गर्नुहोस्", "Working in Dailekh since 2062 BS": "वि.सं. २०६२ देखि दैलेखमा कार्यरत", "Equal rights, dignity and opportunity for every person with a disability": "अपाङ्गता भएका प्रत्येक व्यक्तिका लागि समान अधिकार, सम्मान र अवसर", "An organization led by persons with disabilities, working with communities, local governments and partners across Dailekh.": "अपाङ्गता भएका व्यक्तिहरूद्वारा नेतृत्व गरिएको संस्था, जसले दैलेखभर समुदाय, स्थानीय सरकार र साझेदारहरूसँग मिलेर काम गर्छ।", "Our programmes": "हाम्रा कार्यक्रमहरू", "About us": "हाम्रो बारेमा", "Community session in the hills of Dailekh": "दैलेखका पहाडमा सामुदायिक छलफल", "Current programme · POWER4AY": "हालको कार्यक्रम · POWER4AY", "Skills and self-employment for young people with disabilities": "अपाङ्गता भएका युवाहरूका लागि सीप र स्वरोजगार", "With Save the Children and Everest Club in Dullu and Narayan municipalities, 2024 to 2026.": "सेभ द चिल्ड्रेन र एभरेस्ट क्लबसँग मिलेर दुल्लु र नारायण नगरपालिकामा, सन् २०२४ देखि २०२६ सम्म।", "Read more": "थप पढ्नुहोस्", "Capacity development training for disability network officials, Narayan Municipality": "अपाङ्गता सञ्जालका पदाधिकारीहरूलाई क्षमता अभिवृद्धि तालिम, नारायण नगरपालिका", "Advocacy": "पैरवी", "Raising our voice for disability rights": "अपाङ्गता अधिकारका लागि हाम्रो आवाज", "We work with local and provincial government so laws for persons with disabilities are put into practice.": "अपाङ्गता भएका व्यक्तिहरूका लागि बनेका कानुन व्यवहारमा लागू होऊन् भनेर हामी स्थानीय र प्रदेश सरकारसँग काम गर्छौं।", "Our experience": "हाम्रो अनुभव", "Memorandum handed over on the 34th International Day of Persons with Disabilities, Dailekh": "३४औं अन्तर्राष्ट्रिय अपाङ्गता भएका व्यक्तिहरूको दिवसमा ज्ञापनपत्र हस्तान्तरण, दैलेख", "Community work": "सामुदायिक काम", "No one left behind": "कोही पनि पछाडि नछुटून्", "Women, persons with disabilities and excluded groups taking part in planning for their own communities.": "महिला, अपाङ्गता भएका व्यक्ति र बहिष्कृत समूहहरू आफ्नै समुदायको योजना निर्माणमा सहभागी।", "See photos": "तस्बिरहरू हेर्नुहोस्", "Women's group session in Dailekh": "दैलेखमा महिला समूहको छलफल", "board members, all persons with disabilities": "कार्यसमिति सदस्य, सबै अपाङ्गता भएका व्यक्ति", "general members from every palika of Dailekh": "दैलेखका सबै पालिकाबाट साधारण सदस्य", "major programmes with development partners": "विकास साझेदारहरूसँगका प्रमुख कार्यक्रम", "years of service, since 2062 BS": "वर्षको सेवा, वि.सं. २०६२ देखि", "Registered (BS)": "दर्ता (वि.सं.)", "Who we are": "हामी को हौं", "Panchakoshi Disability Development Forum, Dailekh was registered with the District Administration Office, Dailekh on 18 Phalgun 2062 BS. We help disadvantaged people gain equal access to, control over and ownership of natural, economic and social resources.": "पञ्चकोशी अपाङ्गता विकास मञ्च, दैलेख वि.सं. २०६२ फागुन १८ गते जिल्ला प्रशासन कार्यालय, दैलेखमा दर्ता भएको हो। हामी पछाडि परेका व्यक्तिहरूलाई प्राकृतिक, आर्थिक र सामाजिक स्रोतमा समान पहुँच, नियन्त्रण र स्वामित्व प्राप्त गर्न सहयोग गर्छौं।", "Our target groups are persons with disabilities and people who are socially and economically excluded. PDDF is a well-governed, transparent organization and a leading voice for disability rights advocacy in Dailekh.": "हाम्रा लक्षित समूह अपाङ्गता भएका व्यक्ति तथा सामाजिक र आर्थिक रूपमा बहिष्कृत व्यक्तिहरू हुन्। मञ्च सुशासित र पारदर्शी संस्था हो, र दैलेखमा अपाङ्गता अधिकारको पैरवीमा अग्रणी आवाज हो।", "Empowerment": "सशक्तीकरण", "Drinking water and sanitation": "खानेपानी तथा सरसफाइ", "Micro-enterprise": "लघु उद्यम", "Income generation": "आय आर्जन", "Small irrigation": "साना सिँचाइ", "Disaster risk reduction": "विपद् जोखिम न्यूनीकरण", "Nutrition": "पोषण", "Climate change": "जलवायु परिवर्तन", "Nothing about us without us.": "हाम्रो बारेमा, हामीबिना केही पनि होइन।", "The heart of the disability rights movement, and the way PDDF is run": "अपाङ्गता अधिकार आन्दोलनको मूल मन्त्र, र मञ्च सञ्चालनको आधार", "Every member of our board is a person with a disability. Our work is planned and led by the people it serves.": "हाम्रो कार्यसमितिका सबै सदस्य अपाङ्गता भएका व्यक्ति हुन्। हाम्रो काम जसका लागि हो, उनीहरूले नै योजना बनाउँछन् र नेतृत्व गर्छन्।", "Our direction": "हाम्रो दिशा", "Vision, mission and goal": "दूरदृष्टि, ध्येय र लक्ष्य", "Vision": "दूरदृष्टि", "A just and inclusive society where all persons with disabilities enjoy equal rights, opportunities and dignity, and lead self-reliant, fulfilling lives.": "यस्तो न्यायपूर्ण र समावेशी समाज, जहाँ सबै अपाङ्गता भएका व्यक्तिले समान अधिकार, अवसर र सम्मान पाउँछन् र आत्मनिर्भर, सार्थक जीवन जिउँछन्।", "Mission": "ध्येय", "To improve the social, economic and cultural well-being of persons with disabilities through accessible programmes, community engagement and strategic advocacy, so that no one is left behind.": "पहुँचयुक्त कार्यक्रम, सामुदायिक सहभागिता र रणनीतिक पैरवीमार्फत अपाङ्गता भएका व्यक्तिहरूको सामाजिक, आर्थिक र सांस्कृतिक हित सुधार गर्ने, ताकि कोही पनि पछाडि नछुटून्।", "Goal": "लक्ष्य", "To expand access to inclusive social, economic, educational and livelihood opportunities, so persons with disabilities can be self-reliant, exercise their rights and take part fully in society.": "समावेशी सामाजिक, आर्थिक, शैक्षिक र जीविकोपार्जनका अवसरमा पहुँच बढाउने, ताकि अपाङ्गता भएका व्यक्ति आत्मनिर्भर बनून्, आफ्ना अधिकार उपभोग गरून् र समाजमा पूर्ण सहभागी होऊन्।", "What we aim for": "हामी के चाहन्छौं", "Our objectives": "हाम्रा उद्देश्यहरू", "Make services accessible": "सेवालाई पहुँचयोग्य बनाउने", "Design and deliver inclusive, fair and barrier-free services that improve the quality of life of persons with disabilities.": "अपाङ्गता भएका व्यक्तिहरूको जीवनस्तर सुधार गर्ने समावेशी, न्यायोचित र अवरोधरहित सेवा तयार गर्ने र पुर्‍याउने।", "Promote education and livelihoods": "शिक्षा र जीविकोपार्जन प्रवर्द्धन", "Increase access to quality education, vocational training and lasting employment suited to each person's needs and goals.": "प्रत्येक व्यक्तिको आवश्यकता र लक्ष्य अनुसार गुणस्तरीय शिक्षा, व्यावसायिक तालिम र दिगो रोजगारीमा पहुँच बढाउने।", "Build self-reliance": "आत्मनिर्भरता निर्माण", "Strengthen personal, social and financial capacity through skill development, peer support and independent living programmes.": "सीप विकास, साथी सहयोग र स्वतन्त्र जीवनयापन कार्यक्रममार्फत व्यक्तिगत, सामाजिक र आर्थिक क्षमता बलियो बनाउने।", "Raise community awareness": "सामुदायिक सचेतना बढाउने", "Run regular awareness and sensitization campaigns that reduce stigma and build respect for disability rights.": "हेयभाव घटाउने र अपाङ्गता अधिकारप्रति सम्मान बढाउने नियमित सचेतना तथा संवेदनशीलता अभियान चलाउने।", "Advocate for systemic change": "प्रणालीगत परिवर्तनका लागि पैरवी", "Champion the rights, dignity and real participation of persons with disabilities in policy, governance and the public and private sectors.": "नीति, शासन, सार्वजनिक तथा निजी क्षेत्रमा अपाङ्गता भएका व्यक्तिहरूको अधिकार, सम्मान र वास्तविक सहभागिताको पक्षमा आवाज उठाउने।", "Build strong partnerships": "बलियो साझेदारी निर्माण", "Work with government, civil society, development partners and the private sector for coordinated, sustainable disability-inclusive development.": "समन्वित र दिगो अपाङ्गता-समावेशी विकासका लागि सरकार, नागरिक समाज, विकास साझेदार र निजी क्षेत्रसँग मिलेर काम गर्ने।", "Inclusivity": "समावेशिता", "· embracing diversity": "· विविधताको स्वीकार", "Respect": "सम्मान", "· dignity of every person": "· प्रत्येक व्यक्तिको मर्यादा", "· self-determination": "· आफ्नो निर्णय आफैं", "Accountability": "जवाफदेहिता", "· transparency and integrity": "· पारदर्शिता र इमानदारी", "Collaboration": "सहकार्य", "· alliances for impact": "· प्रभावका लागि साझेदारी", "Our work": "हाम्रो काम", "Major programmes and partners": "प्रमुख कार्यक्रम र साझेदारहरू", "Newest first.": "पछिल्लो पहिले।", "July 2024 to June 2026": "जुलाई २०२४ देखि जुन २०२६ सम्म", "Ongoing": "सञ्चालनमा", "Pathways to Wellbeing, Empowerment and Resilience for Adolescents and Youths": "किशोरकिशोरी तथा युवाहरूको सुस्वास्थ्य, सशक्तीकरण र उत्थानशीलताका मार्गहरू", "Partners:": "साझेदार:", "Partner:": "साझेदार:", "Area:": "क्षेत्र:", "Save the Children, Everest Club": "सेभ द चिल्ड्रेन, एभरेस्ट क्लब", "Dullu and Narayan municipalities, Dailekh": "दुल्लु र नारायण नगरपालिका, दैलेख", "Self-employment for persons with disabilities aged 16 to 25 through micro-enterprise.": "लघु उद्यममार्फत १६ देखि २५ वर्ष उमेरका अपाङ्गता भएका व्यक्तिहरूका लागि स्वरोजगार।", "Statistical profiles of persons with disabilities for both municipalities.": "दुवै नगरपालिकाका लागि अपाङ्गता भएका व्यक्तिहरूको तथ्याङ्क विवरण।", "Orientation and training for the Disability Coordination Committee.": "अपाङ्गता समन्वय समितिका लागि अभिमुखीकरण र तालिम।", "Aug 2019 to June 2023": "अगस्ट २०१९ देखि जुन २०२३ सम्म", "Beyond the Finish Line (BFL): Inclusive and Sustainable RWSS": "बियोन्ड द फिनिस लाइन (BFL): समावेशी र दिगो ग्रामीण खानेपानी तथा सरसफाइ", "SNV Nepal, IWMI Nepal, Everest Club": "एसएनभी नेपाल, आईडब्लूएमआई नेपाल, एभरेस्ट क्लब", "Mahabu, Dungeshwor, Naumule and Gurans rural municipalities": "महाबु, डुंगेश्वर, नौमुले र गुराँस गाउँपालिका", "Formed and strengthened DPO networks at district and palika level.": "जिल्ला र पालिका तहमा अपाङ्गता भएका व्यक्तिहरूका संस्थाको सञ्जाल गठन र सुदृढीकरण।", "Supported inclusive WASH coordination committees.": "समावेशी खानेपानी तथा सरसफाइ समन्वय समितिहरूलाई सहयोग।", "Trained political leaders and stakeholders on disability-inclusive development.": "राजनीतिक नेता र सरोकारवालाहरूलाई अपाङ्गता-समावेशी विकाससम्बन्धी तालिम।", "June 2014 to July 2015": "जुन २०१४ देखि जुलाई २०१५ सम्म", "Strengthening the Accountability of Local Government (SHALG)": "स्थानीय सरकारको जवाफदेहिता सुदृढीकरण (SHALG)", "SHALG District Programme Support Unit, Dailekh": "SHALG जिल्ला कार्यक्रम सहयोग इकाइ, दैलेख", "Badakhola, Kharigaira and Raniban VDCs": "बडाखोला, खरीगैरा र रानीवन गाविस", "Meaningful participation and representation of the target community.": "लक्षित समुदायको अर्थपूर्ण सहभागिता र प्रतिनिधित्व।", "Greater accountability of stakeholders.": "सरोकारवालाहरूको जवाफदेहितामा वृद्धि।", "Empowerment of poor, marginalized and excluded communities.": "गरिब, सीमान्तकृत र बहिष्कृत समुदायको सशक्तीकरण।", "Aug 2010 to June 2015": "अगस्ट २०१० देखि जुन २०१५ सम्म", "INF Surkhet": "आईएनएफ सुर्खेत", "All VDCs of Dailekh": "दैलेखका सबै गाविस", "Selected persons with disabilities for assistive devices and, with the VDCs, sent their names and recommendations to INF.": "सहायक सामग्रीका लागि अपाङ्गता भएका व्यक्तिहरू छनोट गरी गाविससँगको समन्वयमा उनीहरूको नाम र सिफारिस आईएनएफमा पठाइयो।", "June 2008 to Aug 2014": "जुन २००८ देखि अगस्ट २०१४ सम्म", "Community Based Rehabilitation (CBR)": "समुदायमा आधारित पुनर्स्थापना (CBR)", "Women and Children's Office, Dailekh": "महिला तथा बालबालिका कार्यालय, दैलेख", "Identified and registered persons with disabilities in communities.": "समुदायमा अपाङ्गता भएका व्यक्तिहरूको पहिचान र दर्ता।", "Assessed needs and prepared individual rehabilitation plans.": "आवश्यकता मूल्याङ्कन र व्यक्तिगत पुनर्स्थापना योजना तयार।", "Ran awareness programmes on disability rights and inclusion.": "अपाङ्गता अधिकार र समावेशीकरणबारे सचेतना कार्यक्रम सञ्चालन।", "Earlier programme": "पहिलेको कार्यक्रम", "Physical Rehabilitation Project": "शारीरिक पुनर्स्थापना परियोजना", "District Development Committee Office, Dailekh": "जिल्ला विकास समितिको कार्यालय, दैलेख", "What we are doing now": "हामी अहिले के गर्दैछौं", "Recent activities": "हालका गतिविधिहरू", "News from our ongoing work, newest first.": "हाम्रो चलिरहेको कामका समाचार, पछिल्लो पहिले।", "Show all activities": "सबै गतिविधि हेर्नुहोस्", "Expertise": "विशेषज्ञता", "Climate-resilient, inclusive water and sanitation": "जलवायु-उत्थानशील, समावेशी खानेपानी तथा सरसफाइ", "Around 80% of Nepal's people are at risk from climate-related disasters, and women, children and persons with disabilities are hit hardest. Through Beyond the Finish Line, PDDF led social mobilization with SNV Nepal and IWMI Nepal in four rural municipalities.": "नेपालका करिब ८०% मानिस जलवायुजन्य विपद्को जोखिममा छन्, र महिला, बालबालिका तथा अपाङ्गता भएका व्यक्ति सबैभन्दा बढी प्रभावित हुन्छन्। बियोन्ड द फिनिस लाइनमार्फत मञ्चले एसएनभी नेपाल र आईडब्लूएमआई नेपालसँग चार गाउँपालिकामा सामाजिक परिचालनको नेतृत्व गर्‍यो।", "Mapped disaster-prone locations and prepared risk-reduction action plans.": "विपद् जोखिमयुक्त स्थानको नक्साङ्कन र जोखिम न्यूनीकरण कार्ययोजना तयार।", "Used the GESI Self-Assessment Tool in municipal plans and budgets.": "पालिकाको योजना र बजेटमा GESI स्व-मूल्याङ्कन विधिको प्रयोग।", "Rebuilt gravity-fed water schemes with climate-adaptive technology.": "जलवायु-अनुकूल प्रविधिबाट गुरुत्व प्रवाह खानेपानी योजनाहरूको पुनर्निर्माण।", "Prepared water safety plans for each source.": "प्रत्येक मुहानका लागि खानेपानी सुरक्षा योजना तयार।", "Brought women entrepreneurs into water system maintenance.": "खानेपानी प्रणाली मर्मतसम्भारमा महिला उद्यमीहरूको सहभागिता।", "Introduced accessible water-source and tap designs.": "पहुँचयुक्त मुहान र धाराको डिजाइन लागू।", "Working with government": "सरकारसँगको सहकार्य", "We coordinate with the District Administration Office, District Police Office, District Coordination Committee, Social Development Office and other agencies to put disability rights laws into practice. For community-based rehabilitation we have worked with the Ministry of Women, Children and Senior Citizens and with ministries of Karnali Province.": "अपाङ्गता अधिकारसम्बन्धी कानुन व्यवहारमा लागू गराउन हामी जिल्ला प्रशासन कार्यालय, जिल्ला प्रहरी कार्यालय, जिल्ला समन्वय समिति, सामाजिक विकास कार्यालय र अन्य निकायसँग समन्वय गर्छौं। समुदायमा आधारित पुनर्स्थापनाका लागि हामीले महिला, बालबालिका तथा ज्येष्ठ नागरिक मन्त्रालय र कर्णाली प्रदेशका मन्त्रालयहरूसँग काम गरेका छौं।", "We help municipalities with disability data collection, individual plans, access to government services, strategic planning and disaster information guidelines.": "हामी पालिकाहरूलाई अपाङ्गता तथ्याङ्क सङ्कलन, व्यक्तिगत योजना, सरकारी सेवामा पहुँच, रणनीतिक योजना र विपद् सूचना निर्देशिकामा सहयोग गर्छौं।", "Transparency": "पारदर्शिता", "Policies and reports": "नीति र प्रतिवेदनहरू", "Clear policies guide everyone who works with PDDF. Our policies and progress reports are published here so anyone can read them.": "स्पष्ट नीतिहरूले मञ्चमा काम गर्ने सबैलाई मार्गदर्शन गर्छन्। हाम्रा नीति र प्रगति प्रतिवेदनहरू जो कोहीले पढ्न सकून् भनेर यहाँ प्रकाशित गरिन्छन्।", "Our policies": "हाम्रा नीतिहरू", "Progress reports": "प्रगति प्रतिवेदनहरू", "Annual, programme and audit reports": "वार्षिक, कार्यक्रम र लेखापरीक्षण प्रतिवेदनहरू", "Our work in pictures": "तस्बिरमा हाम्रो काम", "Select a photo to see it larger.": "ठूलो गरी हेर्न तस्बिरमा थिच्नुहोस्।", "POWER4AY capacity development training, Narayan Municipality": "POWER4AY क्षमता अभिवृद्धि तालिम, नारायण नगरपालिका", "Memorandum on the 34th International Day of Persons with Disabilities": "३४औं अन्तर्राष्ट्रिय अपाङ्गता भएका व्यक्तिहरूको दिवसमा ज्ञापनपत्र", "Members and partners together": "सदस्य र साझेदारहरू सँगै", "Women's group session with picture cards": "चित्र कार्डसहित महिला समूहको छलफल", "Previous": "अघिल्लो", "Close": "बन्द गर्नुहोस्", "Next": "अर्को", "Governance": "सुशासन", "Executive board": "कार्यसमिति", "9 members: 6 men and 3 women. Every board member is a person with a disability.": "९ सदस्य: ६ पुरुष र ३ महिला। कार्यसमितिका सबै सदस्य अपाङ्गता भएका व्यक्ति हुन्।", "Governance board, Profile 2083": "कार्यसमिति, प्रोफाइल २०८३", "S.N.": "क्र.सं.", "Name": "नाम", "Position": "पद", "Sex": "लिङ्ग", "Type of disability": "अपाङ्गताको प्रकार", "Kamal Bahadur Khadka": "कमल बहादुर खड्का", "Chairperson": "अध्यक्ष", "Male": "पुरुष", "Physical (leg)": "शारीरिक (खुट्टा)", "Pabitra Kumari Magar": "पवित्रा कुमारी मगर", "Vice Chairperson": "उपाध्यक्ष", "Female": "महिला", "Visual impairment": "दृष्टिविहीन", "Rupa Kumari Khadka": "रुपा कुमारी खड्का", "Treasurer": "कोषाध्यक्ष", "Physical (leg and hand)": "शारीरिक (खुट्टा र हात)", "Jit Bahadur G.C.": "जित बहादुर जी.सी.", "Secretary General": "महासचिव", "Physical (lost right hand)": "शारीरिक (दाहिने हात गुमेको)", "Vim Bahadur B.K.": "भीम बहादुर बि.क.", "Member": "सदस्य", "Om Prasad Sharma": "ओम प्रसाद शर्मा", "Jhakad Bahadur Malla": "झकड बहादुर मल्ल", "Kumar Gautam": "कुमार गौतम", "Multiple, wheelchair user": "बहुअपाङ्गता, ह्वीलचेयर प्रयोगकर्ता", "Ratna Kumari Khatri": "रत्न कुमारी खत्री", "General membership: 33 members (20 men, 13 women) from all palikas of Dailekh district.": "साधारण सदस्यता: दैलेख जिल्लाका सबै पालिकाबाट ३३ सदस्य (२० पुरुष, १३ महिला)।", "Partners we have worked with": "हामीले सँगै काम गरेका साझेदारहरू", "Pause scrolling": "चल्न रोक्नुहोस्", "Resume scrolling": "फेरि चलाउनुहोस्", "Save the Children": "सेभ द चिल्ड्रेन", "SNV Nepal": "एसएनभी नेपाल", "IWMI Nepal": "आईडब्लूएमआई नेपाल", "Everest Club": "एभरेस्ट क्लब", "SHALG Dailekh": "SHALG दैलेख", "District Development Committee, Dailekh": "जिल्ला विकास समिति, दैलेख", "Narayan Municipality": "नारायण नगरपालिका", "Dullu Municipality": "दुल्लु नगरपालिका", "Get in touch": "सम्पर्कमा रहनुहोस्", "Contact us": "सम्पर्क गर्नुहोस्", "Office": "कार्यालय", "Narayan Municipality, Ward No. 1": "नारायण नगरपालिका, वडा नं. १", "Karnali Province, Nepal": "कर्णाली प्रदेश, नेपाल", "Copy": "प्रतिलिपि", "Copied": "प्रतिलिपि भयो", "Selected": "छानियो", "Narayan Municipality, Ward No. 1, Karnali Province": "नारायण नगरपालिका, वडा नं. १, कर्णाली प्रदेश", "Open in Google Maps": "गुगल नक्सामा खोल्नुहोस्", "Our office: Narayan Municipality-1, Purano Bazar, Dailekh": "हाम्रो कार्यालय: नारायण नगरपालिका-१, पुरानो बजार, दैलेख", "Get directions": "बाटो हेर्नुहोस्", "Where we have worked": "हामीले काम गरेका ठाउँहरू", "Across Dailekh district, with communities, municipalities and partners.": "दैलेख जिल्लाभर, समुदाय, पालिका र साझेदारहरूसँग।", "Mahabu Rural Municipality": "महाबु गाउँपालिका", "Dungeshwor Rural Municipality": "डुंगेश्वर गाउँपालिका", "Naumule Rural Municipality": "नौमुले गाउँपालिका", "Gurans Rural Municipality": "गुराँस गाउँपालिका", "Thantikandh Rural Municipality": "ठाँटीकाँध गाउँपालिका", "Badakhola, Kharigaira and Raniban (former VDCs)": "बडाखोला, खरीगैरा र रानीवन (साबिकका गाविस)", "All VDCs of Dailekh (CBR, Client Dispatch)": "दैलेखका सबै गाविस (CBR, क्लाइन्ट डिस्प्याच)", "Red pins: current programme (POWER4AY)": "रातो चिह्न: हालको कार्यक्रम (POWER4AY)", "Working for equal rights, dignity and opportunity for persons with disabilities in Dailekh since 2062 BS.": "वि.सं. २०६२ देखि दैलेखमा अपाङ्गता भएका व्यक्तिहरूको समान अधिकार, सम्मान र अवसरका लागि कार्यरत।", "Quick links": "छिटो लिङ्कहरू", "Programmes": "कार्यक्रमहरू", "Contact": "सम्पर्क", "Narayan Municipality-1, Purano Bazar, Dailekh": "नारायण नगरपालिका-१, पुरानो बजार, दैलेख", "Registration": "दर्ता विवरण", "DAO Dailekh: 148/062/063": "जिल्ला प्रशासन कार्यालय दैलेख: १४८/०६२/०६३", "SWC: 19866": "समाज कल्याण परिषद्: १९८६६", "PAN: 302332951": "स्थायी लेखा नम्बर: ३०२३३२९५१", "Renewal: Regular": "नवीकरण: नियमित", "© Panchakoshi Disability Development Forum, Dailekh": "© पञ्चकोशी अपाङ्गता विकास मञ्च, दैलेख", "Back to top": "माथि जानुहोस्", "Accessibility": "पहुँचयोग्यता", "Text size": "अक्षरको आकार", "Display and reading": "देखाउने र पढ्ने तरिका", "High contrast": "उच्च कन्ट्रास्ट", "Easy reading": "सजिलो पढाइ", "Big cursor": "ठूलो कर्सर", "Stop animations": "एनिमेसन रोक्नुहोस्", "Read aloud": "पढेर सुनाउनुहोस्", "Stop reading": "पढ्न रोक्नुहोस्", "Reset all settings": "सबै सेटिङ पहिलेजस्तै", "Your choices are remembered on this device.": "तपाईंका छनोटहरू यो उपकरणमा सम्झिइन्छन्।", "Language": "भाषा", "Panchakoshi Disability Development Forum, home": "पञ्चकोशी अपाङ्गता विकास मञ्च, गृहपृष्ठ", "Main": "मुख्य मेनु", "Highlights": "मुख्य झलकहरू", "1 of 4": "४ मध्ये १", "2 of 4": "४ मध्ये २", "3 of 4": "४ मध्ये ३", "4 of 4": "४ मध्ये ४", "Show slide 1": "स्लाइड १ हेर्नुहोस्", "Show slide 2": "स्लाइड २ हेर्नुहोस्", "Show slide 3": "स्लाइड ३ हेर्नुहोस्", "Show slide 4": "स्लाइड ४ हेर्नुहोस्", "Previous slide": "अघिल्लो स्लाइड", "Pause slideshow": "स्लाइड रोक्नुहोस्", "Play slideshow": "स्लाइड चलाउनुहोस्", "Next slide": "अर्को स्लाइड", "PDDF members and partners, including a wheelchair user and people using crutches, gathered together for a group photo": "ह्वीलचेयर र बैसाखी प्रयोग गर्नेसहित मञ्चका सदस्य र साझेदारहरूको सामूहिक तस्बिर", "Areas of work": "कामका क्षेत्रहरू", "Our guiding principle": "हाम्रो मार्गदर्शक सिद्धान्त", "Core values": "मूल मान्यताहरू", "Participants of a POWER4AY capacity development training, some using crutches and walking sticks, seated behind a Save the Children banner": "सेभ द चिल्ड्रेनको ब्यानरपछाडि बसेका POWER4AY क्षमता अभिवृद्धि तालिमका सहभागीहरू, केही बैसाखी र लौरो प्रयोग गर्दै", "A facilitator leads an outdoor community session on a hillside in Dailekh, with participants seated on mats and chairs and green mountains behind": "दैलेखको पहाडमा सहजकर्ताले खुला ठाउँमा सामुदायिक छलफल चलाउँदै, सहभागीहरू सुकुल र कुर्सीमा बसेका र पछाडि हरिया पहाड", "Participants of a POWER4AY capacity development training seated behind a Save the Children banner": "सेभ द चिल्ड्रेनको ब्यानरपछाडि बसेका POWER4AY क्षमता अभिवृद्धि तालिमका सहभागीहरू", "Outdoor community session on a hillside with mountains behind": "पछाडि पहाड देखिने खुला ठाउँमा सामुदायिक छलफल", "PDDF representatives handing a memorandum to an official in front of a banner for the International Day of Persons with Disabilities": "अन्तर्राष्ट्रिय अपाङ्गता दिवसको ब्यानरअगाडि मञ्चका प्रतिनिधिहरूले अधिकारीलाई ज्ञापनपत्र हस्तान्तरण गर्दै", "Group photo of members and partners, including a wheelchair user": "ह्वीलचेयर प्रयोगकर्तासहित सदस्य र साझेदारहरूको सामूहिक तस्बिर", "Women seated on the grass in a hillside group session with picture cards laid out on the ground": "पहाडमा घाँसमाथि बसेर चित्र कार्डसहित समूह छलफल गर्दै महिलाहरू", "Photo viewer": "तस्बिर दर्शक", "Working areas": "कार्य क्षेत्रहरू", "Accessibility options": "पहुँचयोग्यता विकल्पहरू", "Normal text size": "सामान्य अक्षर", "Larger text size": "ठूलो अक्षर", "Largest text size": "सबैभन्दा ठूलो अक्षर", "PDDF on social media": "सामाजिक सञ्जालमा मञ्च", "Document coming soon": "कागजात छिट्टै आउँदैछ", "View": "हेर्नुहोस्", "Download": "डाउनलोड", "Updated:": "अद्यावधिक:", "No policies published yet": "अहिलेसम्म कुनै नीति प्रकाशित छैन", "Policy documents will appear here.": "नीतिका कागजातहरू यहाँ देखिनेछन्।", "No reports published yet": "अहिलेसम्म कुनै प्रतिवेदन प्रकाशित छैन", "Annual, programme and audit reports will appear here once they are uploaded.": "वार्षिक, कार्यक्रम र लेखापरीक्षण प्रतिवेदनहरू अपलोड भएपछि यहाँ देखिनेछन्।", "No activities posted yet": "अहिलेसम्म कुनै गतिविधि राखिएको छैन", "News about our work will appear here.": "हाम्रो कामका समाचार यहाँ देखिनेछन्।", "Annual report": "वार्षिक प्रतिवेदन", "Progress report": "प्रगति प्रतिवेदन", "Audit report": "लेखापरीक्षण प्रतिवेदन", "Programme report": "कार्यक्रम प्रतिवेदन", "Email": "इमेल", "Map showing the PDDF office at Purano Bazar, Dailekh": "पुरानो बजार, दैलेखमा रहेको मञ्चको कार्यालय देखाउने नक्सा", "Read aloud player": "पढेर सुनाउने प्लेयर", "Ready": "तयार", "Read from the beginning": "सुरुदेखि पढ्नुहोस्", "Previous part": "अघिल्लो भाग", "Next part": "अर्को भाग", "Pause": "रोक्नुहोस्", "Play": "चलाउनुहोस्", "Reading speed": "पढ्ने गति", "Close player": "प्लेयर बन्द गर्नुहोस्", "Tip: click any text to read it from there.": "सुझाव: जुनसुकै भागमा थिच्नुहोस्, त्यहाँबाट पढ्न सुरु हुन्छ।", "Paused": "रोकिएको छ", "Reading:": "पढ्दै:", "Finished reading the page.": "पूरा पृष्ठ पढिसकियो।", "Using a Hindi voice for Nepali (closest available on this device).": "नेपालीका लागि हिन्दी आवाज प्रयोग हुँदैछ (यो उपकरणमा उपलब्ध सबैभन्दा नजिकको)।", "No Nepali voice on this device. You can add one in your phone or computer settings under Text-to-speech.": "यो उपकरणमा नेपाली आवाज छैन। फोन वा कम्प्युटरको सेटिङमा Text-to-speech मा गएर थप्न सकिन्छ।"}</script>
+<script>
+(function () {
+  var root = document.documentElement;
+  var ring = document.getElementById('cursor-ring');
+  function store(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  function load(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+
+  // Language: English / Nepali. Every fixed text is looked up in the Nepali word list; content from the admin page uses its own Nepali fields
+  var NE = {}; try { NE = JSON.parse(document.getElementById('i18n-ne').textContent); } catch (e) {}
+  var EN = {}; Object.keys(NE).forEach(function (k) { EN[NE[k]] = k; });
+  var lang = 'en';
+  function t(text) { return lang === 'ne' && NE[text] ? NE[text] : text; }
+  function swap(value) {
+    var trimmed = value.trim();
+    if (!trimmed) return value;
+    var en = EN[trimmed] || trimmed;
+    var target = lang === 'ne' ? (NE[en] || en) : en;
+    return target === trimmed ? value : value.replace(trimmed, target);
+  }
+  function translateTree(node) {
+    var walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) { return n.parentNode && /^(SCRIPT|STYLE)$/.test(n.parentNode.nodeName) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT; }
+    });
+    var n;
+    while ((n = walker.nextNode())) { var v = swap(n.nodeValue); if (v !== n.nodeValue) n.nodeValue = v; }
+    var els = node.querySelectorAll ? node.querySelectorAll('[aria-label],[alt],[title]') : [];
+    Array.prototype.forEach.call(els, function (el) {
+      ['aria-label', 'alt', 'title'].forEach(function (a) {
+        var cur = el.getAttribute(a);
+        if (cur) { var v = swap(cur); if (v !== cur) el.setAttribute(a, v); }
+      });
+    });
+  }
+  var langListeners = [];
+  function setLang(l) {
+    lang = l === 'ne' ? 'ne' : 'en';
+    root.setAttribute('lang', lang);
+    document.querySelectorAll('.lang-btn').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lang === lang)); });
+    translateTree(document.body);
+    langListeners.forEach(function (fn) { fn(lang); });
+    store('pddf-lang', lang);
+  }
+  document.querySelectorAll('.lang-btn').forEach(function (b) { b.addEventListener('click', function () { setLang(b.dataset.lang); }); });
+  // Text added later (menus, slides, documents) follows the chosen language
+  var pending = false;
+  new MutationObserver(function () {
+    if (pending || lang === 'en') return;
+    pending = true;
+    requestAnimationFrame(function () { pending = false; translateTree(document.body); });
+  }).observe(document.body, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ['aria-label', 'alt', 'title'] });
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function motionOff() { return reduceMotion || root.getAttribute('data-motion') === 'off'; }
+
+  // Text size
+  var sizeBtns = document.querySelectorAll('.size-btn');
+  function setSize(n) {
+    if (n === '0') root.removeAttribute('data-size'); else root.setAttribute('data-size', n);
+    sizeBtns.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.size === n)); });
+    store('pddf-size', n);
+  }
+  sizeBtns.forEach(function (b) { b.addEventListener('click', function () { setSize(b.dataset.size); }); });
+  if (load('pddf-size')) setSize(load('pddf-size'));
+
+  // On/off options
+  function makeToggle(id, attr, value, key, onChange) {
+    var b = document.getElementById(id);
+    function set(on) {
+      if (on) root.setAttribute(attr, value); else root.removeAttribute(attr);
+      b.setAttribute('aria-pressed', String(on));
+      store(key, on ? '1' : '0');
+      if (onChange) onChange(on);
+    }
+    b.addEventListener('click', function () { set(b.getAttribute('aria-pressed') !== 'true'); });
+    if (load(key) === '1') set(true);
+  }
+  makeToggle('contrast-btn', 'data-contrast', 'high', 'pddf-contrast');
+  makeToggle('spacing-btn', 'data-spacing', 'wide', 'pddf-spacing');
+  makeToggle('cursor-btn', 'data-cursor', 'big', 'pddf-cursor', function (on) { if (ring) ring.hidden = on; });
+
+  // Accessibility side panel
+  var a11yOpen = document.getElementById('a11y-open');
+  var a11yPanel = document.getElementById('a11y-panel');
+  function setPanel(on) {
+    a11yPanel.classList.toggle('open', on);
+    a11yOpen.setAttribute('aria-expanded', String(on));
+    if (on) a11yPanel.focus(); else a11yOpen.focus();
+  }
+  a11yOpen.addEventListener('click', function () { setPanel(!a11yPanel.classList.contains('open')); });
+  document.getElementById('a11y-close').addEventListener('click', function () { setPanel(false); });
+  a11yPanel.addEventListener('keydown', function (e) { if (e.key === 'Escape') setPanel(false); });
+  document.addEventListener('click', function (e) {
+    if (a11yPanel.classList.contains('open') && !a11yPanel.contains(e.target) && !a11yOpen.contains(e.target)) {
+      a11yPanel.classList.remove('open'); a11yOpen.setAttribute('aria-expanded', 'false');
+    }
+  });
+  document.getElementById('a11y-reset').addEventListener('click', function () {
+    ['contrast-btn', 'spacing-btn', 'cursor-btn', 'motion-btn'].forEach(function (id) {
+      var b = document.getElementById(id);
+      if (b.getAttribute('aria-pressed') === 'true') b.click();
+    });
+    setSize('0');
+  });
+
+  // Main menu: drop-downs open on hover (mouse) or click/tap, and work with the keyboard
+  var nav = document.getElementById('site-nav');
+  var subs = Array.prototype.slice.call(nav.querySelectorAll('.has-sub'));
+  var canHover = window.matchMedia('(hover: hover) and (min-width: 54.01rem)');
+  function setOpen(li, on) {
+    li.classList.toggle('open', on);
+    li.querySelector(':scope > button').setAttribute('aria-expanded', String(on));
+    if (!on) li.querySelectorAll('.has-sub.open').forEach(function (c) { setOpen(c, false); });
+  }
+  function closeAll(except) {
+    subs.forEach(function (li) { if (!except || !li.contains(except)) setOpen(li, false); });
+  }
+  subs.forEach(function (li) {
+    var btn = li.querySelector(':scope > button');
+    var timer;
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var on = !li.classList.contains('open');
+      closeAll(li);
+      setOpen(li, on);
+      if (on && e.detail === 0) { var first = li.querySelector(':scope > .submenu a, :scope > .submenu button'); if (first) first.focus(); }
+    });
+    li.addEventListener('mouseenter', function () { if (!canHover.matches) return; clearTimeout(timer); closeAll(li); setOpen(li, true); });
+    li.addEventListener('mouseleave', function () { if (!canHover.matches) return; timer = setTimeout(function () { setOpen(li, false); }, 250); });
+    li.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && li.classList.contains('open')) { e.stopPropagation(); setOpen(li, false); btn.focus(); }
+    });
+  });
+  document.addEventListener('click', function (e) { if (!nav.contains(e.target)) closeAll(); });
+  nav.addEventListener('focusout', function (e) { if (!nav.contains(e.relatedTarget)) closeAll(); });
+  nav.addEventListener('click', function (e) {
+    if (e.target.closest('a')) closeAll();
+  });
+
+  // Slider
+  var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+  var dotsBox = document.getElementById('dots');
+  var playBtn = document.getElementById('play-slide');
+  var playIcon = document.getElementById('play-icon');
+  var current = 0, timer = null, playing = false, userPaused = false;
+  var dots = slides.map(function (s, i) {
+    var d = document.createElement('button');
+    d.type = 'button'; d.className = 'dot'; d.id = 'dot-' + i;
+    d.setAttribute('aria-label', 'Show slide ' + (i + 1));
+    d.addEventListener('click', function () { show(i); restart(); });
+    dotsBox.appendChild(d);
+    return d;
+  });
+  function show(i) {
+    current = (i + slides.length) % slides.length;
+    slides.forEach(function (s, j) {
+      var on = j === current;
+      s.classList.toggle('current', on);
+      s.setAttribute('aria-hidden', String(!on));
+      if ('inert' in s) s.inert = !on;
+      s.querySelectorAll('img').forEach(function (img) { if (on && img.loading === 'lazy') img.loading = 'eager'; });
+    });
+    dots.forEach(function (d, j) { d.setAttribute('aria-current', String(j === current)); });
+  }
+  function setPlaying(on) {
+    playing = on;
+    clearInterval(timer);
+    if (on) timer = setInterval(function () { show(current + 1); }, 7000);
+    playBtn.setAttribute('aria-label', on ? 'Pause slideshow' : 'Play slideshow');
+    document.querySelector('.slider').classList.toggle('autoplay', on);
+    playIcon.innerHTML = on ? '<path d="M9 5v14M15 5v14"/>' : '<path d="M7 5l12 7-12 7z"/>';
+  }
+  function restart() {
+    if (!playing) return;
+    var sl = document.querySelector('.slider'); sl.classList.remove('autoplay'); void sl.offsetWidth;
+    setPlaying(true);
+  }
+  document.getElementById('prev-slide').addEventListener('click', function () { show(current - 1); restart(); });
+  document.getElementById('next-slide').addEventListener('click', function () { show(current + 1); restart(); });
+  playBtn.addEventListener('click', function () { userPaused = playing; setPlaying(!playing); });
+  var slider = document.querySelector('.slider');
+  // Swipe left or right on phones
+  var touchX = null;
+  slider.addEventListener('touchstart', function (e) { touchX = e.touches[0].clientX; }, { passive: true });
+  slider.addEventListener('touchend', function (e) {
+    if (touchX === null) return;
+    var dx = e.changedTouches[0].clientX - touchX; touchX = null;
+    if (Math.abs(dx) > 50) { show(current + (dx < 0 ? 1 : -1)); restart(); }
+  });
+  show(0);
+  setPlaying(!motionOff());
+
+  makeToggle('motion-btn', 'data-motion', 'off', 'pddf-motion', function (off) {
+    if (off) setPlaying(false); else if (!userPaused && !reduceMotion) setPlaying(true);
+    setMarquee(off);
+  });
+
+  // Partner strip
+  var marquee = document.getElementById('marquee');
+  var marqueeBtn = document.getElementById('marquee-btn');
+  function setMarquee(paused) {
+    marquee.classList.toggle('paused', paused);
+    marqueeBtn.setAttribute('aria-pressed', String(paused));
+    marqueeBtn.textContent = paused ? 'Resume scrolling' : 'Pause scrolling';
+  }
+  marqueeBtn.addEventListener('click', function () { setMarquee(!marquee.classList.contains('paused')); });
+  if (motionOff()) setMarquee(true);
+
+  // Counters and scroll reveal, only for content below the first screen
+  var counters = document.querySelectorAll('[data-count]');
+  function countUp(el) {
+    var target = +el.dataset.count, suffix = el.dataset.suffix || '', start = null;
+    function step(t) {
+      if (!start) start = t;
+      var p = Math.min((t - start) / 1400, 1);
+      el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))) + suffix;
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+  if ('IntersectionObserver' in window && !motionOff()) {
+    var fold = window.innerHeight;
+    var revealObs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.remove('pre'); revealObs.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(function (el, i) {
+      if (el.getBoundingClientRect().top > fold) {
+        el.classList.add('pre');
+        el.style.transitionDelay = (i % 3) * 0.08 + 's';
+        revealObs.observe(el);
+      }
+    });
+    var countObs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { countUp(e.target); countObs.unobserve(e.target); }
+      });
+    }, { threshold: 0.6 });
+    counters.forEach(function (el) { countObs.observe(el); });
+  }
+
+  // Header shadow, active link and back-to-top button
+  var header = document.getElementById('site-header');
+  var toTop = document.getElementById('to-top');
+  var navLinks = Array.prototype.slice.call(nav.querySelectorAll('a.nav-top[href^="#"]'));
+  function onScroll() {
+    var y = window.scrollY;
+    header.classList.toggle('scrolled', y > 40);
+    toTop.setAttribute('data-hidden', String(y < 600));
+    var active = null;
+    navLinks.forEach(function (a) {
+      var sec = document.querySelector(a.getAttribute('href'));
+      if (sec && sec.getBoundingClientRect().top < 160) active = a;
+    });
+    navLinks.forEach(function (a) { a.classList.toggle('active', a === active); });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+  toTop.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: motionOff() ? 'auto' : 'smooth' });
+    document.querySelector('.brand').focus({ preventScroll: true });
+  });
+
+  // Gallery lightbox
+  var lb = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lb-img');
+  var lbCap = document.getElementById('lb-caption');
+  var gBtns = Array.prototype.slice.call(document.querySelectorAll('.g-btn'));
+  var lbIndex = 0;
+  function openLb(i) {
+    lbIndex = (i + gBtns.length) % gBtns.length;
+    var b = gBtns[lbIndex];
+    lbImg.src = b.dataset.full;
+    lbImg.alt = b.querySelector('img').alt;
+    lbCap.textContent = b.parentElement.querySelector('figcaption').textContent;
+    if (!lb.open) { if (lb.showModal) lb.showModal(); else lb.setAttribute('open', ''); }
+  }
+  gBtns.forEach(function (b, i) { b.addEventListener('click', function () { openLb(i); }); });
+  document.getElementById('lb-prev').addEventListener('click', function () { openLb(lbIndex - 1); });
+  document.getElementById('lb-next').addEventListener('click', function () { openLb(lbIndex + 1); });
+  document.getElementById('lb-close').addEventListener('click', function () { if (lb.close) lb.close(); else lb.removeAttribute('open'); });
+  lb.addEventListener('click', function (e) { if (e.target === lb && lb.close) lb.close(); });
+  lb.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowLeft') openLb(lbIndex - 1);
+    if (e.key === 'ArrowRight') openLb(lbIndex + 1);
+  });
+
+  // Read aloud: a player that reads the page part by part, highlights what it reads,
+  // uses the most natural voice on the device and fixes how names and short forms are said
+  (function () {
+    var speakBtn = document.getElementById('speak-btn');
+    var speakLabel = document.getElementById('speak-label');
+    if (!('speechSynthesis' in window) || !('SpeechSynthesisUtterance' in window)) return;
+    var synth = window.speechSynthesis;
+    var reader = document.getElementById('reader');
+    var statusEl = document.getElementById('reader-status');
+    var playBtn = document.getElementById('rd-play');
+    var speedBtn = document.getElementById('rd-speed');
+    var PLAY_ICON = '<path d="M8 5v14l11-7z"/>', PAUSE_ICON = '<path d="M7 5h4v14H7zM13 5h4v14h-4z"/>';
+    var SPEEDS = [0.85, 1, 1.2];
+    var speedIdx = +(load('pddf-rd-speed') || 1);
+    if (!(speedIdx >= 0 && speedIdx < SPEEDS.length)) speedIdx = 1;
+    var blocks = [], idx = 0, playing = false, gen = 0, note = '';
+    speakBtn.hidden = false;
+
+    var FIX_EN = [
+      [/\bPDDF\b/g, 'P.D.D.F.'], [/\bPOWER4AY\b/g, 'Power for A.Y.'], [/\bSHALG\b/g, 'S.H.A.L.G.'], [/\bRWSS\b/g, 'rural water supply and sanitation'],
+      [/\bWASH\b/g, 'wash'], [/\bVDCs\b/g, 'V.D.C.s'], [/\bVDC\b/g, 'V.D.C.'], [/\bCBR\b/g, 'C.B.R.'], [/\bDPO\b/g, 'D.P.O.'],
+      [/\bGESI\b/g, 'gender equality and social inclusion'], [/\bBFL\b/g, 'B.F.L.'], [/\bSNV\b/g, 'S.N.V.'], [/\bIWMI\b/g, 'I.W.M.I.'],
+      [/\bINF\b/g, 'I.N.F.'], [/\bSWC\b/g, 'Social Welfare Council'], [/\bDAO\b/g, 'District Administration Office'], [/\bPAN\b/g, 'P.A.N.'],
+      [/\bBS\b/g, 'Bik-rum Sum-butt'], [/\bS\.N\./g, 'Serial number'], [/\bNo\.\s*/g, 'number '], [/\bFY\b/g, 'fiscal year'],
+      [/\bDailekh\b/g, 'Dye-layk'],
+      [/\bPanchakoshi\b/g, 'Punch-koh-shee'],
+      [/\bPurano\s+Bazar\b/g, 'Poo-rah-noh Buh-zaar'],
+      [/\bNarayan\b/g, 'Nah-rah-yun'],
+      [/\bDullu\b/g, 'Dool-loo'],
+      [/\bKarnali\b/g, 'Kur-nah-lee'],
+      [/\bMahabu\b/g, 'Muh-hah-boo'],
+      [/\bDungeshwor\b/g, 'Doong-gay-shwor'],
+      [/\bNaumule\b/g, 'Now-moo-lay'],
+      [/\bGurans\b/g, 'Goo-raans'],
+      [/\bThantikandh\b/g, 'Taan-tee-kaand'],
+      [/\bBadakhola\b/g, 'Buh-dah-koh-lah'],
+      [/\bKharigaira\b/g, 'Kuh-ree-guy-rah'],
+      [/\bRaniban\b/g, 'Rah-nee-bun'],
+      [/\bSurkhet\b/g, 'Soor-khayt'],
+      [/\bNepal\b/g, 'Nay-paal'],
+      [/\bPhalgun\b/g, 'Faa-goon'],
+      [/\bKamal\b/g, 'Kuh-mul'],
+      [/\bBahadur\b/g, 'Buh-hah-door'],
+      [/\bKhadka\b/g, 'Khud-kah'],
+      [/\bPabitra\b/g, 'Puh-bit-rah'],
+      [/\bKumari\b/g, 'Koo-mah-ree'],
+      [/\bMagar\b/g, 'Mah-gur'],
+      [/\bRupa\b/g, 'Roo-pah'],
+      [/\bJit\b/g, 'Jeet'],
+      [/\bVim\b/g, 'Bheem'],
+      [/\bPrasad\b/g, 'Pruh-saad'],
+      [/\bSharma\b/g, 'Shur-mah'],
+      [/\bJhakad\b/g, 'Juh-kud'],
+      [/\bMalla\b/g, 'Mul-lah'],
+      [/\bKumar\b/g, 'Koo-mar'],
+      [/\bGautam\b/g, 'Gow-tum'],
+      [/\bRatna\b/g, 'Rut-nah'],
+      [/\bKhatri\b/g, 'Khut-ree'],
+      [/\bOm\b/g, 'Ohm'],
+      [/\bpalikas?\b/g, function (m) { return m.replace('palika', 'pah-lee-kah'); }],
+      [/@/g, ' at '], [/\.com\b/g, ' dot com'], [/&/g, ' and '], [/·/g, ', '], [/\s*\/\s*/g, ' / ']
+    ];
+    var FIX_NE = [
+      [/वि\.सं\./g, 'विक्रम संवत्'], [/क्र\.सं\./g, 'क्रम संख्या'], [/नं\./g, 'नम्बर'], [/POWER4AY/g, 'पावर फोर ए वाई'], [/SHALG/g, 'एस एच ए एल जी'],
+      [/CBR/g, 'सी बी आर'], [/GESI/g, 'जेसी'], [/BFL/g, 'बी एफ एल'], [/PDDF/g, 'पी डी डी एफ'], [/जी\.सी\./g, 'जीसी'], [/बि\.क\./g, 'विश्वकर्मा'],
+      [/@/g, ' एट '], [/\.com/g, ' डट कम'], [/·/g, ', ']
+    ];
+    function spokenText(text) {
+      text = text.replace(/[०-९0-9]{9,}/g, function (num) { return num.split('').join(' '); });
+      (lang === 'ne' ? FIX_NE : FIX_EN).forEach(function (f) { text = text.replace(f[0], f[1]); });
+      return text.replace(/\s+/g, ' ').trim();
+    }
+
+    function pickVoice() {
+      var voices = synth.getVoices();
+      var prefs = lang === 'ne' ? ['ne-NP', 'ne', 'hi-IN', 'hi'] : ['en-US', 'en-GB', 'en-AU', 'en-CA', 'en'];
+      var best = null, bestScore = -1;
+      voices.forEach(function (v) {
+        var l = (v.lang || '').replace('_', '-');
+        var rank = -1;
+        prefs.forEach(function (p, i) { if (rank < 0 && (l === p || l.indexOf(p + '-') === 0 || (p.length === 2 && l.slice(0, 2) === p))) rank = i; });
+        if (rank < 0) return;
+        var score = (prefs.length - rank) * 10;
+        if (/natural|neural|online|premium|enhanced|google/i.test(v.name)) score += 6;
+        if (/aria|jenny|guy|ava|andrew|emma|samantha/i.test(v.name)) score += 2;
+        if (v.localService === false) score += 1;
+        if (score > bestScore) { bestScore = score; best = v; }
+      });
+      note = '';
+      if (lang === 'ne') {
+        if (!best) note = t('No Nepali voice on this device. You can add one in your phone or computer settings under Text-to-speech.');
+        else if (best.lang.slice(0, 2) === 'hi') note = t('Using a Hindi voice for Nepali (closest available on this device).');
+      }
+      return best;
+    }
+
+    function visible(el) {
+      if (el.closest('[hidden], [aria-hidden="true"], [inert], .reader, .a11y-panel, .social, script, style, dialog:not([open])')) return false;
+      if (el.closest('.slide') && !el.closest('.slide.current')) return false;
+      return !(el.offsetParent === null && getComputedStyle(el).position !== 'fixed' && el.getClientRects().length === 0);
+    }
+    var SEL = 'h1, h2, h3, h4, p, li, figcaption, tbody tr, .stat, dt, dd';
+    function collect() {
+      document.querySelectorAll('.rd-block').forEach(function (el) { el.classList.remove('rd-block'); });
+      var scope = [document.getElementById('main'), document.querySelector('.site-footer')];
+      var list = [];
+      scope.forEach(function (sc) {
+        if (!sc) return;
+        sc.querySelectorAll(SEL).forEach(function (el) {
+          if (!visible(el)) return;
+          if (el.querySelector(SEL)) return;
+          if (el.parentElement && el.parentElement.closest('.stat')) return;
+          var text;
+          if (el.matches('.stat')) text = Array.prototype.map.call(el.children, function (c) { return c.textContent.trim(); }).join(' ');
+          else if (el.matches('tbody tr')) text = Array.prototype.map.call(el.cells, function (c) { return c.innerText.trim(); }).join(', ');
+          else text = el.getAttribute('aria-label') || el.innerText;
+          text = (text || '').replace(/\s+/g, ' ').trim();
+          if (!text || !/[A-Za-zऀ-ॿ0-9]/.test(text)) return;
+          el.classList.add('rd-block');
+          list.push({ el: el, text: text });
+        });
+      });
+      return list;
+    }
+
+    function setStatus(text) { statusEl.textContent = text; }
+    function setPlayingUI(on) {
+      playing = on;
+      reader.classList.toggle('playing', on);
+      playBtn.querySelector('svg').innerHTML = on ? PAUSE_ICON : PLAY_ICON;
+      var label = on ? t('Pause') : t('Play');
+      playBtn.setAttribute('aria-label', label); playBtn.title = label;
+    }
+    function clearHighlight() { document.querySelectorAll('.rd-current').forEach(function (el) { el.classList.remove('rd-current'); }); }
+
+    function speakBlock(i) {
+      gen++;
+      var my = gen;
+      synth.cancel();
+      if (i >= blocks.length) {
+        clearHighlight(); setPlayingUI(false); idx = 0;
+        setStatus(t('Finished reading the page.'));
+        return;
+      }
+      idx = Math.max(0, i);
+      var b = blocks[idx];
+      clearHighlight();
+      b.el.classList.add('rd-current');
+      var r = b.el.getBoundingClientRect();
+      if (r.top < 90 || r.bottom > window.innerHeight - 170) b.el.scrollIntoView({ behavior: motionOff() ? 'auto' : 'smooth', block: 'center' });
+      setStatus((note ? note + ' ' : '') + t('Reading:') + ' ' + b.text);
+      var spoken = spokenText(b.text);
+      var parts = spoken.length > 200 ? spoken.split(/(?<=[.!?।])\s+/) : [spoken];
+      var voice = pickVoice();
+      if (note) setStatus(note + ' ' + t('Reading:') + ' ' + b.text);
+      (function next(k) {
+        if (my !== gen) return;
+        if (k >= parts.length) { speakBlock(idx + 1); return; }
+        var u = new SpeechSynthesisUtterance(parts[k]);
+        if (voice) { u.voice = voice; u.lang = voice.lang; } else u.lang = lang === 'ne' ? 'ne-NP' : 'en-IN';
+        u.rate = SPEEDS[speedIdx] * (lang === 'ne' ? 0.92 : 0.95);
+        u.pitch = 1;
+        u.onend = function () { if (my === gen) setTimeout(function () { next(k + 1); }, 180); };
+        u.onerror = function (e) { if (my === gen && e.error !== 'interrupted' && e.error !== 'canceled') next(k + 1); };
+        synth.speak(u);
+      })(0);
+      setPlayingUI(true);
+    }
+
+    function openReader(startAt) {
+      reader.hidden = false;
+      document.body.classList.add('reader-on');
+      speakBtn.setAttribute('aria-pressed', 'true');
+      speakLabel.textContent = t('Stop reading');
+      blocks = collect();
+      speakBlock(startAt || 0);
+    }
+    function closeReader() {
+      gen++; synth.cancel();
+      setPlayingUI(false); clearHighlight();
+      reader.hidden = true;
+      document.body.classList.remove('reader-on');
+      speakBtn.setAttribute('aria-pressed', 'false');
+      speakLabel.textContent = t('Read aloud');
+    }
+    function pause() { gen++; synth.cancel(); setPlayingUI(false); setStatus(t('Paused')); }
+
+    speakBtn.addEventListener('click', function () {
+      if (!reader.hidden) { closeReader(); return; }
+      var panel = document.getElementById('a11y-panel');
+      if (panel.classList.contains('open')) document.getElementById('a11y-close').click();
+      openReader(0);
+      playBtn.focus();
+    });
+    playBtn.addEventListener('click', function () { if (playing) pause(); else { blocks = collect(); speakBlock(Math.min(idx, blocks.length - 1)); } });
+    document.getElementById('rd-start').addEventListener('click', function () { blocks = collect(); speakBlock(0); });
+    document.getElementById('rd-prev').addEventListener('click', function () { speakBlock(Math.max(0, idx - 1)); });
+    document.getElementById('rd-next').addEventListener('click', function () { speakBlock(idx + 1); });
+    document.getElementById('rd-close').addEventListener('click', function () { closeReader(); speakBtn.focus(); });
+    function showSpeed() { speedBtn.textContent = SPEEDS[speedIdx] + '×'; }
+    showSpeed();
+    speedBtn.addEventListener('click', function () {
+      speedIdx = (speedIdx + 1) % SPEEDS.length; store('pddf-rd-speed', speedIdx); showSpeed();
+      if (playing) speakBlock(idx);
+    });
+    reader.addEventListener('keydown', function (e) { if (e.key === 'Escape') { closeReader(); speakBtn.focus(); } });
+    // While the player is open, clicking any text reads from there
+    document.addEventListener('click', function (e) {
+      if (reader.hidden || e.target.closest('a, button, input, .reader, .a11y-panel')) return;
+      var el = e.target.closest('.rd-block');
+      if (!el) return;
+      blocks = collect();
+      for (var i = 0; i < blocks.length; i++) if (blocks[i].el === el) { speakBlock(i); return; }
+    });
+    langListeners.push(function () { if (!reader.hidden) { blocks = collect(); speakBlock(0); } speakLabel.textContent = t(reader.hidden ? 'Read aloud' : 'Stop reading'); });
+    if (synth.onvoiceschanged !== undefined) synth.onvoiceschanged = function () { synth.getVoices(); };
+    window.addEventListener('pagehide', function () { synth.cancel(); });
+  })();
+
+  // Blue circle that smoothly follows the mouse pointer
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    var tx = -100, ty = -100, cx = -100, cy = -100, moving = false;
+    function loop() {
+      var ease = motionOff() ? 1 : 0.2;
+      cx += (tx - cx) * ease; cy += (ty - cy) * ease;
+      ring.style.transform = 'translate3d(' + cx + 'px,' + cy + 'px,0)';
+      if (Math.abs(tx - cx) > 0.3 || Math.abs(ty - cy) > 0.3) requestAnimationFrame(loop); else moving = false;
+    }
+    document.addEventListener('mousemove', function (e) {
+      tx = e.clientX; ty = e.clientY;
+      if (!ring.classList.contains('on')) { cx = tx; cy = ty; ring.classList.add('on'); }
+      if (!moving) { moving = true; requestAnimationFrame(loop); }
+    });
+    document.addEventListener('mouseover', function (e) {
+      ring.classList.toggle('hover', !!e.target.closest('a, button, [role="button"], input, label'));
+    });
+    document.documentElement.addEventListener('mouseleave', function () { ring.classList.remove('on'); });
+    document.addEventListener('mousedown', function () { ring.classList.add('press'); });
+    document.addEventListener('mouseup', function () { ring.classList.remove('press'); });
+  } else {
+    ring.hidden = true;
+  }
+
+  // Activities, policies and reports come from content/*.json, which the admin page edits
+  var ICON_DOC = '<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/>';
+  var ICON_EYE = '<path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>';
+  var ICON_DOWN = '<path d="M12 4v11M7 10l5 5 5-5M5 20h14"/>';
+  function svg(paths) { return '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' + paths + '</svg>'; }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; }
+  function pick(it, key) { return (lang === 'ne' && it[key + '_ne']) || it[key] || ''; }
+  function fileUrl(p) { return p ? String(p).replace(/^\/+/, '') : ''; }
+  function loadContent(name) {
+    return fetch('content/' + name + '.json', { cache: 'no-cache' })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .catch(function () { try { return JSON.parse(document.getElementById('data-' + name).textContent); } catch (e) { return []; } })
+      .then(function (d) { return Array.isArray(d) ? d : []; });
+  }
+  function docButtons(file, title) {
+    var box = el('div', 'doc-actions');
+    var url = fileUrl(file);
+    if (!url) {
+      box.appendChild(el('span', 'doc-soon', 'Document coming soon'));
+      return box;
+    }
+    var view = el('a', 'doc-btn view'); view.href = url; view.target = '_blank'; view.rel = 'noopener';
+    view.innerHTML = svg(ICON_EYE); view.appendChild(document.createTextNode('View'));
+    view.setAttribute('aria-label', 'View ' + title + ' (opens in a new tab)');
+    var save = el('a', 'doc-btn save'); save.href = url; save.setAttribute('download', '');
+    save.innerHTML = svg(ICON_DOWN); save.appendChild(document.createTextNode('Download'));
+    save.setAttribute('aria-label', 'Download ' + title);
+    box.appendChild(view); box.appendChild(save);
+    return box;
+  }
+  function emptyState(list, title, text) {
+    var li = el('li', 'empty-state');
+    li.innerHTML = svg(ICON_DOC);
+    li.appendChild(el('strong', '', title));
+    li.appendChild(el('span', '', text));
+    list.appendChild(li);
+  }
+
+  loadContent('policies').then(function (items) {
+    langListeners.push(function () { renderPolicies(items); });
+    renderPolicies(items);
+  });
+  function renderPolicies(items) {
+    var list = document.getElementById('policy-list');
+    list.textContent = '';
+    if (!items.length) { emptyState(list, 'No policies published yet', 'Policy documents will appear here.'); return; }
+    items.forEach(function (it) {
+      var li = el('li', 'doc-card');
+      var top = el('div', 'doc-top');
+      var icon = el('span', 'doc-icon'); icon.innerHTML = svg(ICON_DOC);
+      top.appendChild(icon); top.appendChild(el('h4', '', pick(it, 'title') || 'Policy'));
+      li.appendChild(top);
+      if (pick(it, 'description')) li.appendChild(el('p', '', pick(it, 'description')));
+      if (pick(it, 'updated')) li.appendChild(el('p', 'doc-updated', t('Updated:') + ' ' + pick(it, 'updated')));
+      li.appendChild(docButtons(it.file, it.title || 'policy'));
+      list.appendChild(li);
+    });
+  }
+
+  loadContent('reports').then(function (items) {
+    langListeners.push(function () { renderReports(items); });
+    renderReports(items);
+  });
+  function renderReports(items) {
+    var list = document.getElementById('report-list');
+    list.textContent = '';
+    if (!items.length) { emptyState(list, 'No reports published yet', 'Annual, programme and audit reports will appear here once they are uploaded.'); return; }
+    items.forEach(function (it) {
+      var li = el('li', 'report-row');
+      var info = el('div');
+      var line = el('p');
+      if (it.type) line.appendChild(el('span', 'report-type', it.type));
+      if (pick(it, 'period')) line.appendChild(el('span', 'report-period', pick(it, 'period')));
+      info.appendChild(line);
+      info.appendChild(el('h4', '', pick(it, 'title') || 'Report'));
+      if (pick(it, 'summary')) info.appendChild(el('p', '', pick(it, 'summary')));
+      li.appendChild(info);
+      li.appendChild(docButtons(it.file, it.title || 'report'));
+      list.appendChild(li);
+    });
+  }
+
+  loadContent('activities').then(function (items) {
+    langListeners.push(function () { renderActivities(items); });
+    renderActivities(items);
+  });
+  function renderActivities(items) {
+    var list = document.getElementById('activity-list');
+    var moreRow = document.getElementById('activity-more');
+    var LIMIT = 6;
+    list.textContent = '';
+    if (!items.length) { emptyState(list, 'No activities posted yet', 'News about our work will appear here.'); return; }
+    items.forEach(function (it, i) {
+      var li = el('li', 'act-card');
+      if (i >= LIMIT) li.hidden = true;
+      var img = el('img');
+      img.src = fileUrl(it.photo) || 'images/community-session-hills-sm.jpg';
+      img.alt = pick(it, 'photo_description');
+      img.loading = 'lazy';
+      li.appendChild(img);
+      var body = el('div', 'act-body');
+      var meta = el('p', 'act-meta');
+      if (pick(it, 'category')) meta.appendChild(el('span', 'act-tag', pick(it, 'category')));
+      if (pick(it, 'date')) meta.appendChild(el('span', 'act-date', pick(it, 'date')));
+      if (meta.childNodes.length) body.appendChild(meta);
+      body.appendChild(el('h3', '', pick(it, 'title')));
+      if (pick(it, 'summary')) body.appendChild(el('p', '', pick(it, 'summary')));
+      li.appendChild(body);
+      list.appendChild(li);
+    });
+    moreRow.hidden = items.length <= LIMIT;
+    document.getElementById('activity-more-btn').onclick = function () {
+      list.querySelectorAll('li[hidden]').forEach(function (li) { li.hidden = false; });
+      moreRow.hidden = true;
+    };
+  }
+
+  // Map: the embedded Google map loads on the live website; the preview shows the address card instead
+  (function () {
+    var host = location.hostname;
+    var live = /pddfnepal\.org$|github\.io$|^localhost$|^127\.0\.0\.1$/.test(host);
+    if (!live) return;
+    var frame = document.createElement('iframe');
+    frame.title = 'Map showing the PDDF office at Purano Bazar, Dailekh';
+    frame.loading = 'lazy';
+    frame.referrerPolicy = 'no-referrer-when-downgrade';
+    frame.src = 'https://maps.google.com/maps?q=Purano%20Bazar%2C%20Narayan%20Municipality%2C%20Dailekh%2C%20Nepal&z=15&output=embed';
+    frame.addEventListener('load', function () { document.getElementById('map-placeholder').hidden = true; });
+    document.getElementById('map-card').appendChild(frame);
+  })();
+
+  // Social media icons: shown for every link filled in content/social.json
+  var SOCIAL = {"facebook": {"label": "Facebook", "color": "#1877f2", "path": "<path d=\"M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4A21 21 0 0 0 14.3 4c-2.3 0-3.9 1.4-3.9 4v2.5H7.8v3h2.6V21z\"/>"}, "youtube": {"label": "YouTube", "color": "#e62117", "path": "<path d=\"M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3z\"/>"}, "instagram": {"label": "Instagram", "color": "#c13584", "path": "<path d=\"M12 7.3A4.7 4.7 0 1 0 16.7 12 4.7 4.7 0 0 0 12 7.3zm0 7.7a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm6-7.9a1.1 1.1 0 1 1-1.1-1.1A1.1 1.1 0 0 1 18 7.1zM21 8a5.4 5.4 0 0 0-1.5-3.8A5.4 5.4 0 0 0 15.7 2.7C14.2 2.6 9.8 2.6 8.3 2.7a5.4 5.4 0 0 0-3.8 1.5A5.4 5.4 0 0 0 3 8c-.1 1.5-.1 6 0 7.5a5.4 5.4 0 0 0 1.5 3.8 5.4 5.4 0 0 0 3.8 1.5c1.5.1 5.9.1 7.4 0a5.4 5.4 0 0 0 3.8-1.5 5.4 5.4 0 0 0 1.5-3.8c.1-1.5.1-6 0-7.5zm-2 9.2a3 3 0 0 1-1.7 1.7c-1.2.5-4 .4-5.3.4s-4.1.1-5.3-.4A3 3 0 0 1 5 17.2c-.5-1.2-.4-4-.4-5.2s-.1-4.1.4-5.3A3 3 0 0 1 6.7 5c1.2-.5 4-.4 5.3-.4s4.1-.1 5.3.4A3 3 0 0 1 19 6.7c.5 1.2.4 4 .4 5.3s.1 4-.4 5.2z\"/>"}, "whatsapp": {"label": "WhatsApp", "color": "#25d366", "path": "<path d=\"M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z\"/>"}, "tiktok": {"label": "TikTok", "color": "#111111", "path": "<path d=\"M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-1.8-2.5V9.7a5.8 5.8 0 1 0 5 5.7V9.1a7.4 7.4 0 0 0 4.3 1.4V7.4a4.3 4.3 0 0 1-3.3-1.6z\"/>"}, "linkedin": {"label": "LinkedIn", "color": "#0a66c2", "path": "<path d=\"M6.9 21H3.3V9h3.6zM5.1 7.4a2.1 2.1 0 1 1 2.1-2.1 2.1 2.1 0 0 1-2.1 2.1zM21 21h-3.6v-5.8c0-1.4 0-3.2-2-3.2s-2.2 1.5-2.2 3.1V21H9.6V9h3.4v1.6a3.8 3.8 0 0 1 3.4-1.9c3.6 0 4.3 2.4 4.3 5.5z\"/>"}, "email": {"label": "Email", "color": "#c8102e", "path": "<path d=\"M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.2L4 7.3V17h16V7.3z\"/>"}};
+  fetch('content/social.json', { cache: 'no-cache' })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .catch(function () { try { return JSON.parse(document.getElementById('data-social').textContent); } catch (e) { return {}; } })
+    .then(function (links) {
+      [document.getElementById('social'), document.getElementById('social-footer')].forEach(function (box) {
+      Object.keys(SOCIAL).forEach(function (key) {
+        var url = links && links[key];
+        if (!url) return;
+        var info = SOCIAL[key];
+        if (key === 'email' && url.indexOf('mailto:') !== 0) url = 'mailto:' + url;
+        if (key === 'whatsapp' && !/^https?:/.test(url)) url = 'https://wa.me/' + String(url).replace(/[^0-9]/g, '');
+        var a = document.createElement('a');
+        a.href = url;
+        if (key !== 'email') { a.target = '_blank'; a.rel = 'noopener'; }
+        a.style.setProperty('--brand', info.color);
+        a.setAttribute('aria-label', 'PDDF on ' + info.label + (key === 'email' ? '' : ' (opens in a new tab)'));
+        a.style.setProperty('--i', box.children.length);
+        a.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' + info.path + '</svg><span class="tip" aria-hidden="true">' + info.label + '</span>';
+        box.appendChild(a);
+      });
+      if (box.querySelectorAll('a').length === 0) box.hidden = true;
+      });
+    });
+
+  // Quote: words appear one by one when the quote scrolls into view
+  (function () {
+    var band = document.querySelector('.quote-band');
+    if (!band || motionOff() || !('IntersectionObserver' in window)) return;
+    var p = band.querySelector('blockquote p');
+    var QUOTE = (EN[p.textContent.trim()] || p.textContent.trim());
+    function buildQuote() {
+      var text = t(QUOTE);
+      var words = text.split(/\s+/);
+      p.setAttribute('aria-label', text);
+      p.textContent = '';
+      words.forEach(function (w, i) {
+        var span = document.createElement('span');
+        span.className = 'w'; span.style.setProperty('--i', i); span.textContent = w; span.setAttribute('aria-hidden', 'true');
+        p.appendChild(span);
+        if (i < words.length - 1) p.appendChild(document.createTextNode(' '));
+      });
+    }
+    buildQuote();
+    langListeners.push(buildQuote);
+    band.classList.add('ready');
+    var obs = new IntersectionObserver(function (entries) {
+      if (entries[0].isIntersecting) { band.classList.add('play'); obs.disconnect(); }
+    }, { threshold: 0.35 });
+    obs.observe(band);
+  })();
+
+  // Little moments: number the chips so they pop in one after another, and send tiny hearts from main buttons
+  document.querySelectorAll('.pop-group').forEach(function (g) {
+    Array.prototype.forEach.call(g.children, function (li, i) { li.style.setProperty('--i', i); });
+  });
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('.btn-primary, .nav-cta, .map-link, .doc-btn.view');
+    if (!b || motionOff() || e.detail === 0) return;
+    var bits = ['\u2764', '\u2764', '\u2764', '\u2764', '\u2764'];
+    var colors = ['#c8102e', '#0072b2', '#ff9aa8', '#0072b2', '#c8102e'];
+    bits.forEach(function (ch, i) {
+      var sp = document.createElement('span');
+      var angle = (Math.PI * 2 * i) / bits.length + Math.random() * 0.5;
+      var dist = 34 + Math.random() * 22;
+      sp.className = 'burst'; sp.textContent = ch; sp.setAttribute('aria-hidden', 'true');
+      sp.style.left = e.clientX + 'px'; sp.style.top = e.clientY + 'px'; sp.style.color = colors[i];
+      sp.style.setProperty('--dx', Math.cos(angle) * dist + 'px');
+      sp.style.setProperty('--dy', Math.sin(angle) * dist - 12 + 'px');
+      document.body.appendChild(sp);
+      setTimeout(function () { sp.remove(); }, 950);
+    });
+  });
+
+  if (load('pddf-lang') === 'ne') setLang('ne');
+
+  // Copy buttons
+  document.querySelectorAll('.copy-btn').forEach(function (b) {
+    b.addEventListener('click', function () {
+      function done() { b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy'; }, 1800); }
+      function fallback() {
+        var range = document.createRange(); range.selectNodeContents(b.previousElementSibling);
+        var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(range);
+        b.textContent = 'Selected';
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(b.dataset.copy).then(done, fallback);
+      else fallback();
+    });
+  });
+})();
+</script>
+
+</body></html>
