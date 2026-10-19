@@ -1,0 +1,314 @@
+media:
+  input: uploads
+  output: /uploads
+
+content:
+  - name: activities
+    label: 1. Recent activities / गतिविधिहरू
+    description: News shown in the Activities section. Put the newest one at the top.
+    type: file
+    path: content/activities.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Title (English)
+        type: string
+        required: true
+      - name: title_ne
+        label: शीर्षक (नेपाली)
+        type: string
+      - name: date
+        label: Date (English), e.g. 3 December 2025
+        type: string
+      - name: date_ne
+        label: मिति (नेपाली), e.g. २०८२ मंसिर १७
+        type: string
+      - name: category
+        label: Type (English), e.g. Training, Advocacy, Meeting
+        type: string
+      - name: category_ne
+        label: प्रकार (नेपाली)
+        type: string
+      - name: summary
+        label: What happened (English, 1 to 3 sentences)
+        type: text
+      - name: summary_ne
+        label: के भयो (नेपाली)
+        type: text
+      - name: photo
+        label: Photo
+        type: image
+      - name: photo_description
+        label: What is in the photo? (English, read aloud for blind visitors)
+        type: string
+      - name: photo_description_ne
+        label: तस्बिरमा के छ? (नेपाली)
+        type: string
+
+  - name: gallery
+    label: 2. Photo gallery / तस्बिरहरू
+    description: Photos in the Gallery section. The first two show larger.
+    type: file
+    path: content/gallery.json
+    format: json
+    list: true
+    fields:
+      - name: photo
+        label: Photo
+        type: image
+        required: true
+      - name: caption
+        label: Caption (English)
+        type: string
+      - name: caption_ne
+        label: क्याप्सन (नेपाली)
+        type: string
+      - name: photo_description
+        label: What is in the photo? (English, read aloud for blind visitors)
+        type: string
+      - name: photo_description_ne
+        label: तस्बिरमा के छ? (नेपाली)
+        type: string
+
+  - name: programmes
+    label: 3. Programmes and projects / कार्यक्रमहरू
+    description: Newest first. The first programme shows large with its photo. These also fill the Our Programmes menu.
+    type: file
+    path: content/programmes.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Programme name (English)
+        type: string
+        required: true
+      - name: title_ne
+        label: कार्यक्रमको नाम (नेपाली)
+        type: string
+      - name: menu_name
+        label: Short name for the menu (English), e.g. POWER4AY (current)
+        type: string
+      - name: menu_name_ne
+        label: मेनुको छोटो नाम (नेपाली)
+        type: string
+      - name: status
+        label: Status (English), e.g. Ongoing. Leave empty when finished.
+        type: string
+      - name: status_ne
+        label: अवस्था (नेपाली), e.g. चालु
+        type: string
+      - name: dates
+        label: Dates (English), e.g. July 2024 to June 2026
+        type: string
+      - name: dates_ne
+        label: अवधि (नेपाली)
+        type: string
+      - name: full_name
+        label: Full programme name (English, optional)
+        type: string
+      - name: full_name_ne
+        label: कार्यक्रमको पूरा नाम (नेपाली)
+        type: string
+      - name: partners
+        label: Partners (English)
+        type: string
+      - name: partners_ne
+        label: साझेदार (नेपाली)
+        type: string
+      - name: area
+        label: Area (English)
+        type: string
+      - name: area_ne
+        label: क्षेत्र (नेपाली)
+        type: string
+      - name: photo
+        label: Photo (only used for the first programme)
+        type: image
+      - name: photo_description
+        label: What is in the photo? (English)
+        type: string
+      - name: photo_description_ne
+        label: तस्बिरमा के छ? (नेपाली)
+        type: string
+      - name: points
+        label: Main work (one line each)
+        type: object
+        list: true
+        fields:
+          - name: text
+            label: English
+            type: string
+          - name: text_ne
+            label: नेपाली
+            type: string
+
+  - name: policies
+    label: 4. Policies / नीतिहरू
+    description: Type the policy text so visitors can read it on the site, and/or upload the PDF.
+    type: file
+    path: content/policies.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Policy name (English)
+        type: string
+        required: true
+      - name: title_ne
+        label: नीतिको नाम (नेपाली)
+        type: string
+      - name: description
+        label: One-line description (English)
+        type: text
+      - name: description_ne
+        label: छोटो विवरण (नेपाली)
+        type: text
+      - name: content
+        label: Full policy text (English). Leave a blank line between paragraphs.
+        type: text
+      - name: content_ne
+        label: नीतिको पूरा पाठ (नेपाली)
+        type: text
+      - name: file
+        label: Policy document (PDF, optional)
+        type: file
+      - name: updated
+        label: Last updated (English), e.g. Kartik 2083
+        type: string
+      - name: updated_ne
+        label: अन्तिम अद्यावधिक (नेपाली)
+        type: string
+
+  - name: reports
+    label: 5. Progress reports / प्रतिवेदनहरू
+    description: Annual, programme and audit reports. Upload the PDF.
+    type: file
+    path: content/reports.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Report name (English)
+        type: string
+        required: true
+      - name: title_ne
+        label: प्रतिवेदनको नाम (नेपाली)
+        type: string
+      - name: type
+        label: Type, e.g. Annual, Audit, Programme
+        type: string
+      - name: period
+        label: Year or period (English), e.g. 2081/82
+        type: string
+      - name: period_ne
+        label: वर्ष (नेपाली)
+        type: string
+      - name: summary
+        label: Short summary (English)
+        type: text
+      - name: summary_ne
+        label: छोटो सारांश (नेपाली)
+        type: text
+      - name: file
+        label: Report document (PDF)
+        type: file
+
+  - name: board
+    label: 6. Executive board / कार्यसमिति
+    type: file
+    path: content/board.json
+    format: json
+    fields:
+      - name: summary
+        label: Summary line (English), e.g. 9 members, 6 men and 3 women...
+        type: string
+      - name: summary_ne
+        label: सारांश (नेपाली)
+        type: string
+      - name: table_title
+        label: Table title (English), e.g. Governance board, Profile 2083
+        type: string
+      - name: table_title_ne
+        label: तालिकाको शीर्षक (नेपाली)
+        type: string
+      - name: members
+        label: Board members (in order)
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Name (English)
+            type: string
+          - name: name_ne
+            label: नाम (नेपाली)
+            type: string
+          - name: position
+            label: Position (English), e.g. Chairperson, Member
+            type: string
+          - name: position_ne
+            label: पद (नेपाली)
+            type: string
+          - name: sex
+            label: Sex (English)
+            type: string
+          - name: sex_ne
+            label: लिङ्ग (नेपाली)
+            type: string
+          - name: disability
+            label: Type of disability (English)
+            type: string
+          - name: disability_ne
+            label: अपाङ्गताको प्रकार (नेपाली)
+            type: string
+      - name: membership_note
+        label: General membership line (English)
+        type: string
+      - name: membership_note_ne
+        label: साधारण सदस्यता (नेपाली)
+        type: string
+
+  - name: partners
+    label: 7. Partners / साझेदारहरू
+    description: Names in the scrolling partners strip.
+    type: file
+    path: content/partners.json
+    format: json
+    list: true
+    fields:
+      - name: name
+        label: Partner name (English)
+        type: string
+        required: true
+      - name: name_ne
+        label: साझेदारको नाम (नेपाली)
+        type: string
+
+  - name: social
+    label: 8. Social media links / सामाजिक सञ्जाल
+    description: Leave a box empty to hide that icon.
+    type: file
+    path: content/social.json
+    format: json
+    fields:
+      - name: facebook
+        label: Facebook page link
+        type: string
+      - name: youtube
+        label: YouTube link
+        type: string
+      - name: instagram
+        label: Instagram link
+        type: string
+      - name: whatsapp
+        label: WhatsApp number
+        type: string
+      - name: tiktok
+        label: TikTok link
+        type: string
+      - name: linkedin
+        label: LinkedIn link
+        type: string
+      - name: email
+        label: Email address
+        type: string
