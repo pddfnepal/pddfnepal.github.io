@@ -1,0 +1,179 @@
+[
+  {
+    "menu_name": "POWER4AY (current)",
+    "menu_name_ne": "POWER4AY (हाल सञ्चालित)",
+    "dates": "July 2024 to June 2026",
+    "dates_ne": "जुलाई २०२४ देखि जुन २०२६ सम्म",
+    "title": "POWER4AY",
+    "title_ne": "",
+    "status": "Ongoing",
+    "status_ne": "सञ्चालनमा",
+    "full_name": "Pathways to Wellbeing, Empowerment and Resilience for Adolescents and Youths",
+    "full_name_ne": "किशोरकिशोरी तथा युवाहरूको सुस्वास्थ्य, सशक्तीकरण र उत्थानशीलताका मार्गहरू",
+    "partners": "Save the Children, Everest Club",
+    "partners_ne": "सेभ द चिल्ड्रेन, एभरेस्ट क्लब",
+    "area": "Dullu and Narayan municipalities, Dailekh",
+    "area_ne": "दुल्लु र नारायण नगरपालिका, दैलेख",
+    "photo": "images/power4ay-training.jpg",
+    "photo_description": "Participants of a POWER4AY capacity development training, some using crutches and walking sticks, seated behind a Save the Children banner",
+    "photo_description_ne": "सेभ द चिल्ड्रेनको ब्यानरपछाडि बसेका POWER4AY क्षमता अभिवृद्धि तालिमका सहभागीहरू, केही बैसाखी र लौरो प्रयोग गर्दै",
+    "points": [
+      {
+        "text": "Self-employment for persons with disabilities aged 16 to 25 through micro-enterprise.",
+        "text_ne": "लघु उद्यममार्फत १६ देखि २५ वर्ष उमेरका अपाङ्गता भएका व्यक्तिहरूका लागि स्वरोजगार।"
+      },
+      {
+        "text": "Statistical profiles of persons with disabilities for both municipalities.",
+        "text_ne": "दुवै नगरपालिकाका लागि अपाङ्गता भएका व्यक्तिहरूको तथ्याङ्क विवरण।"
+      },
+      {
+        "text": "Orientation and training for the Disability Coordination Committee.",
+        "text_ne": "अपाङ्गता समन्वय समितिका लागि अभिमुखीकरण र तालिम।"
+      }
+    ]
+  },
+  {
+    "menu_name": "Beyond the Finish Line",
+    "menu_name_ne": "बियोन्ड द फिनिस लाइन",
+    "dates": "Aug 2019 to June 2023",
+    "dates_ne": "अगस्ट २०१९ देखि जुन २०२३ सम्म",
+    "title": "Beyond the Finish Line (BFL): Inclusive and Sustainable RWSS",
+    "title_ne": "बियोन्ड द फिनिस लाइन (BFL): समावेशी र दिगो ग्रामीण खानेपानी तथा सरसफाइ",
+    "status": "",
+    "status_ne": "",
+    "full_name": "",
+    "full_name_ne": "",
+    "partners": "SNV Nepal, IWMI Nepal, Everest Club",
+    "partners_ne": "एसएनभी नेपाल, आईडब्लूएमआई नेपाल, एभरेस्ट क्लब",
+    "area": "Mahabu, Dungeshwor, Naumule and Gurans rural municipalities",
+    "area_ne": "महाबु, डुंगेश्वर, नौमुले र गुराँस गाउँपालिका",
+    "photo": "",
+    "photo_description": "",
+    "photo_description_ne": "",
+    "points": [
+      {
+        "text": "Formed and strengthened DPO networks at district and palika level.",
+        "text_ne": "जिल्ला र पालिका तहमा अपाङ्गता भएका व्यक्तिहरूका संस्थाको सञ्जाल गठन र सुदृढीकरण।"
+      },
+      {
+        "text": "Supported inclusive WASH coordination committees.",
+        "text_ne": "समावेशी खानेपानी तथा सरसफाइ समन्वय समितिहरूलाई सहयोग।"
+      },
+      {
+        "text": "Trained political leaders and stakeholders on disability-inclusive development.",
+        "text_ne": "राजनीतिक नेता र सरोकारवालाहरूलाई अपाङ्गता-समावेशी विकाससम्बन्धी तालिम।"
+      }
+    ]
+  },
+  {
+    "menu_name": "SHALG",
+    "menu_name_ne": "SHALG",
+    "dates": "June 2014 to July 2015",
+    "dates_ne": "जुन २०१४ देखि जुलाई २०१५ सम्म",
+    "title": "Strengthening the Accountability of Local Government (SHALG)",
+    "title_ne": "स्थानीय सरकारको जवाफदेहिता सुदृढीकरण (SHALG)",
+    "status": "",
+    "status_ne": "",
+    "full_name": "",
+    "full_name_ne": "",
+    "partners": "SHALG District Programme Support Unit, Dailekh",
+    "partners_ne": "SHALG जिल्ला कार्यक्रम सहयोग इकाइ, दैलेख",
+    "area": "Badakhola, Kharigaira and Raniban VDCs",
+    "area_ne": "बडाखोला, खरीगैरा र रानीवन गाविस",
+    "photo": "",
+    "photo_description": "",
+    "photo_description_ne": "",
+    "points": [
+      {
+        "text": "Meaningful participation and representation of the target community.",
+        "text_ne": "लक्षित समुदायको अर्थपूर्ण सहभागिता र प्रतिनिधित्व।"
+      },
+      {
+        "text": "Greater accountability of stakeholders.",
+        "text_ne": "सरोकारवालाहरूको जवाफदेहितामा वृद्धि।"
+      },
+      {
+        "text": "Empowerment of poor, marginalized and excluded communities.",
+        "text_ne": "गरिब, सीमान्तकृत र बहिष्कृत समुदायको सशक्तीकरण।"
+      }
+    ]
+  },
+  {
+    "menu_name": "Client Dispatch Service",
+    "menu_name_ne": "क्लाइन्ट डिस्प्याच सेवा",
+    "dates": "Aug 2010 to June 2015",
+    "dates_ne": "अगस्ट २०१० देखि जुन २०१५ सम्म",
+    "title": "Client Dispatch Service",
+    "title_ne": "क्लाइन्ट डिस्प्याच सेवा",
+    "status": "",
+    "status_ne": "",
+    "full_name": "",
+    "full_name_ne": "",
+    "partners": "INF Surkhet",
+    "partners_ne": "आईएनएफ सुर्खेत",
+    "area": "All VDCs of Dailekh",
+    "area_ne": "दैलेखका सबै गाविस",
+    "photo": "",
+    "photo_description": "",
+    "photo_description_ne": "",
+    "points": [
+      {
+        "text": "Selected persons with disabilities for assistive devices and, with the VDCs, sent their names and recommendations to INF.",
+        "text_ne": "सहायक सामग्रीका लागि अपाङ्गता भएका व्यक्तिहरू छनोट गरी गाविससँगको समन्वयमा उनीहरूको नाम र सिफारिस आईएनएफमा पठाइयो।"
+      }
+    ]
+  },
+  {
+    "menu_name": "Community Based Rehabilitation",
+    "menu_name_ne": "समुदायमा आधारित पुनर्स्थापना",
+    "dates": "June 2008 to Aug 2014",
+    "dates_ne": "जुन २००८ देखि अगस्ट २०१४ सम्म",
+    "title": "Community Based Rehabilitation (CBR)",
+    "title_ne": "समुदायमा आधारित पुनर्स्थापना (CBR)",
+    "status": "",
+    "status_ne": "",
+    "full_name": "",
+    "full_name_ne": "",
+    "partners": "Women and Children's Office, Dailekh",
+    "partners_ne": "महिला तथा बालबालिका कार्यालय, दैलेख",
+    "area": "All VDCs of Dailekh",
+    "area_ne": "दैलेखका सबै गाविस",
+    "photo": "",
+    "photo_description": "",
+    "photo_description_ne": "",
+    "points": [
+      {
+        "text": "Identified and registered persons with disabilities in communities.",
+        "text_ne": "समुदायमा अपाङ्गता भएका व्यक्तिहरूको पहिचान र दर्ता।"
+      },
+      {
+        "text": "Assessed needs and prepared individual rehabilitation plans.",
+        "text_ne": "आवश्यकता मूल्याङ्कन र व्यक्तिगत पुनर्स्थापना योजना तयार।"
+      },
+      {
+        "text": "Ran awareness programmes on disability rights and inclusion.",
+        "text_ne": "अपाङ्गता अधिकार र समावेशीकरणबारे सचेतना कार्यक्रम सञ्चालन।"
+      }
+    ]
+  },
+  {
+    "menu_name": "Physical Rehabilitation",
+    "menu_name_ne": "शारीरिक पुनर्स्थापना",
+    "dates": "Earlier programme",
+    "dates_ne": "पहिलेको कार्यक्रम",
+    "title": "Physical Rehabilitation Project",
+    "title_ne": "शारीरिक पुनर्स्थापना परियोजना",
+    "status": "",
+    "status_ne": "",
+    "full_name": "",
+    "full_name_ne": "",
+    "partners": "District Development Committee Office, Dailekh",
+    "partners_ne": "जिल्ला विकास समितिको कार्यालय, दैलेख",
+    "area": "",
+    "area_ne": "",
+    "photo": "",
+    "photo_description": "",
+    "photo_description_ne": "",
+    "points": []
+  }
+]

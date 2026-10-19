@@ -1,0 +1,37 @@
+[
+  {
+    "photo": "images/power4ay-training.jpg",
+    "caption": "POWER4AY capacity development training, Narayan Municipality",
+    "caption_ne": "POWER4AY क्षमता अभिवृद्धि तालिम, नारायण नगरपालिका",
+    "photo_description": "Participants of a POWER4AY capacity development training seated behind a Save the Children banner",
+    "photo_description_ne": "सेभ द चिल्ड्रेनको ब्यानरपछाडि बसेका POWER4AY क्षमता अभिवृद्धि तालिमका सहभागीहरू"
+  },
+  {
+    "photo": "images/community-session-hills.jpg",
+    "caption": "Community session in the hills of Dailekh",
+    "caption_ne": "दैलेखका पहाडमा सामुदायिक छलफल",
+    "photo_description": "Outdoor community session on a hillside with mountains behind",
+    "photo_description_ne": "पछाडि पहाड देखिने खुला ठाउँमा सामुदायिक छलफल"
+  },
+  {
+    "photo": "images/disability-day-memorandum.jpg",
+    "caption": "Memorandum on the 34th International Day of Persons with Disabilities",
+    "caption_ne": "३४औं अन्तर्राष्ट्रिय अपाङ्गता भएका व्यक्तिहरूको दिवसमा ज्ञापनपत्र",
+    "photo_description": "PDDF representatives handing a memorandum to an official in front of a banner for the International Day of Persons with Disabilities",
+    "photo_description_ne": "अन्तर्राष्ट्रिय अपाङ्गता दिवसको ब्यानरअगाडि मञ्चका प्रतिनिधिहरूले अधिकारीलाई ज्ञापनपत्र हस्तान्तरण गर्दै"
+  },
+  {
+    "photo": "images/members-meeting.jpg",
+    "caption": "Members and partners together",
+    "caption_ne": "सदस्य र साझेदारहरू सँगै",
+    "photo_description": "Group photo of members and partners, including a wheelchair user",
+    "photo_description_ne": "ह्वीलचेयर प्रयोगकर्तासहित सदस्य र साझेदारहरूको सामूहिक तस्बिर"
+  },
+  {
+    "photo": "images/womens-group-session.jpg",
+    "caption": "Women's group session with picture cards",
+    "caption_ne": "चित्र कार्डसहित महिला समूहको छलफल",
+    "photo_description": "Women seated on the grass in a hillside group session with picture cards laid out on the ground",
+    "photo_description_ne": "पहाडमा घाँसमाथि बसेर चित्र कार्डसहित समूह छलफल गर्दै महिलाहरू"
+  }
+]

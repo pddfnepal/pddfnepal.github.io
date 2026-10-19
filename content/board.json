@@ -1,0 +1,100 @@
+{
+  "summary": "9 members: 6 men and 3 women. Every board member is a person with a disability.",
+  "summary_ne": "९ सदस्य: ६ पुरुष र ३ महिला। कार्यसमितिका सबै सदस्य अपाङ्गता भएका व्यक्ति हुन्।",
+  "table_title": "Governance board, Profile 2083",
+  "table_title_ne": "कार्यसमिति, प्रोफाइल २०८३",
+  "members": [
+    {
+      "name": "Kamal Bahadur Khadka",
+      "name_ne": "कमल बहादुर खड्का",
+      "position": "Chairperson",
+      "position_ne": "अध्यक्ष",
+      "sex": "Male",
+      "sex_ne": "पुरुष",
+      "disability": "Physical (leg)",
+      "disability_ne": "शारीरिक (खुट्टा)"
+    },
+    {
+      "name": "Pabitra Kumari Magar",
+      "name_ne": "पवित्रा कुमारी मगर",
+      "position": "Vice Chairperson",
+      "position_ne": "उपाध्यक्ष",
+      "sex": "Female",
+      "sex_ne": "महिला",
+      "disability": "Visual impairment",
+      "disability_ne": "दृष्टिविहीन"
+    },
+    {
+      "name": "Rupa Kumari Khadka",
+      "name_ne": "रुपा कुमारी खड्का",
+      "position": "Treasurer",
+      "position_ne": "कोषाध्यक्ष",
+      "sex": "Female",
+      "sex_ne": "महिला",
+      "disability": "Physical (leg and hand)",
+      "disability_ne": "शारीरिक (खुट्टा र हात)"
+    },
+    {
+      "name": "Jit Bahadur G.C.",
+      "name_ne": "जित बहादुर जी.सी.",
+      "position": "Secretary General",
+      "position_ne": "महासचिव",
+      "sex": "Male",
+      "sex_ne": "पुरुष",
+      "disability": "Physical (lost right hand)",
+      "disability_ne": "शारीरिक (दाहिने हात गुमेको)"
+    },
+    {
+      "name": "Vim Bahadur B.K.",
+      "name_ne": "भीम बहादुर बि.क.",
+      "position": "Member",
+      "position_ne": "सदस्य",
+      "sex": "Male",
+      "sex_ne": "पुरुष",
+      "disability": "Physical (lost right hand)",
+      "disability_ne": "शारीरिक (दाहिने हात गुमेको)"
+    },
+    {
+      "name": "Om Prasad Sharma",
+      "name_ne": "ओम प्रसाद शर्मा",
+      "position": "Member",
+      "position_ne": "सदस्य",
+      "sex": "Male",
+      "sex_ne": "पुरुष",
+      "disability": "Visual impairment",
+      "disability_ne": "दृष्टिविहीन"
+    },
+    {
+      "name": "Jhakad Bahadur Malla",
+      "name_ne": "झकड बहादुर मल्ल",
+      "position": "Member",
+      "position_ne": "सदस्य",
+      "sex": "Male",
+      "sex_ne": "पुरुष",
+      "disability": "Physical (leg)",
+      "disability_ne": "शारीरिक (खुट्टा)"
+    },
+    {
+      "name": "Kumar Gautam",
+      "name_ne": "कुमार गौतम",
+      "position": "Member",
+      "position_ne": "सदस्य",
+      "sex": "Male",
+      "sex_ne": "पुरुष",
+      "disability": "Multiple, wheelchair user",
+      "disability_ne": "बहुअपाङ्गता, ह्वीलचेयर प्रयोगकर्ता"
+    },
+    {
+      "name": "Ratna Kumari Khatri",
+      "name_ne": "रत्न कुमारी खत्री",
+      "position": "Member",
+      "position_ne": "सदस्य",
+      "sex": "Female",
+      "sex_ne": "महिला",
+      "disability": "Physical (leg)",
+      "disability_ne": "शारीरिक (खुट्टा)"
+    }
+  ],
+  "membership_note": "General membership: 33 members (20 men, 13 women) from all palikas of Dailekh district.",
+  "membership_note_ne": "साधारण सदस्यता: दैलेख जिल्लाका सबै पालिकाबाट ३३ सदस्य (२० पुरुष, १३ महिला)।"
+}
